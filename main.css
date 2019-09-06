@@ -29,6 +29,10 @@ body {
 }
 
 .menu a {
+    Font-Family: 'Ubuntu', Sans-Serif;
+    Font-Size: 48px;
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
     font-size: 14px;
     display: block;
 
@@ -617,7 +621,7 @@ li.contact {
     .menu {
         display: inline-flex;
         justify-content: space-evenly;
-
+        width: 60%;
 
     }
 
