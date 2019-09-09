@@ -505,7 +505,7 @@ li.contact {
     }
 
     #Github {
-        color: green;
+        color: white;
         font-weight: bold;
         font-size: 23px;
     }
@@ -513,7 +513,7 @@ li.contact {
 
 
     #Linkedin {
-        color: rgb(33, 124, 199);
+        color: white;
         font-weight: bold;
         font-size: 23px;
     }
@@ -528,10 +528,15 @@ li.contact {
         display: none;
     }
 
+
+    .name {
+        padding-right: 252px;
+    }
+
+
     .menu {
         display: inline-flex;
-        justify-content: space-evenly;
-
+        justify-content: flex-end;
 
     }
 
@@ -540,8 +545,8 @@ li.contact {
         display: block;
 
         text-decoration: none;
-        margin: 0px;
-        margin-right: 6px;
+        margin: 20px;
+        margin-right: 19px;
         /*top to bottom*/
 
         /*from left to right*/
@@ -553,7 +558,7 @@ li.contact {
 
 @media only screen and (min-width:1440px) {
     #Github {
-        color: green;
+        color: white;
         font-weight: bold;
         font-size: 23px;
     }
@@ -561,7 +566,7 @@ li.contact {
 
 
     #Linkedin {
-        color: rgb(33, 124, 199);
+        color: white;
         font-weight: bold;
         font-size: 23px;
     }
@@ -618,10 +623,15 @@ li.contact {
         display: none;
     }
 
+    .name {
+        padding-right: 680px;
+
+    }
+
     .menu {
         display: inline-flex;
         justify-content: space-evenly;
-        width: 60%;
+
 
     }
 
@@ -639,6 +649,8 @@ li.contact {
         color: white;
     }
 
+
+
     .bioPage {
         background-size: no-repeat;
         width: 100%;
@@ -653,7 +665,6 @@ li.contact {
 
 
     }
-
 
 
 
