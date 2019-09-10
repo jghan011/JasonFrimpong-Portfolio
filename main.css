@@ -380,16 +380,32 @@ li.contact {
 }
 
 @media only screen and (min-width:768px) {
+    #toggle:checked+.menu {
+        margin-bottom: 0px;
+        justify-content: space-evenly;
+        display: inline-flex;
+        font-size: 11px;
+        background-color: black;
+        margin-top: 7px;
 
+    }
 
     .menu {
-        height: 30px;
+        height: 0px;
 
     }
 
     .nav {
-        height: 50px;
+        line-height: 35px;
     }
+
+    .label {
+        display: flex;
+        position: absolute;
+        margin-left: 730px;
+        line-height: 45px;
+    }
+
 
     .bioPage {
         width: 100%;
