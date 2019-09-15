@@ -716,6 +716,7 @@ li.contact {
 
 
     .paragraph {
+        text-indent: 8%;
         word-spacing: 8px;
         Font-Family: 'Ubuntu', Sans-Serif;
         margin: 70px;
@@ -725,6 +726,7 @@ li.contact {
     }
 
     .paragraphTwo {
+        text-indent: 8%;
         word-spacing: 8px;
         Font-Family: 'Ubuntu', Sans-Serif;
         margin: 70px;
