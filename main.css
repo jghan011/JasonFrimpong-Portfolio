@@ -448,7 +448,7 @@ li.contact {
 
     .languages {
         position: absolute;
-        top: 65%;
+        top: 101%;
         font-weight: bold;
         font-size: 1.3em;
         color: rgb(255, 255, 142);
@@ -562,7 +562,7 @@ li.contact {
     }
 
     .languages {
-        top: 63%;
+        top: 93%;
         font-size: 1.4em;
         color: rgb(255, 255, 142);
     }
