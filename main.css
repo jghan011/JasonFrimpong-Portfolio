@@ -631,6 +631,16 @@ li.contact {
 
 
 @media only screen and (min-width:1440px) {
+
+    .projects {
+        background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+
+        background-position: bottom center;
+
+    }
+
     .bioPage {
         background-size: cover;
     }
