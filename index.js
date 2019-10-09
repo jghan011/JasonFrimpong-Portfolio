@@ -33,8 +33,17 @@ function handleClickHome() {
 
 }
 
+function handleClickLabel() {
+    $("label").on("click", function (event) {
+        $("label").hide();
+
+    })
+
+}
+
 
 function portfolio() {
+    handleClickLabel();
     handleClickBio();
     handleClickPortfolio();
     handleClickHome();
