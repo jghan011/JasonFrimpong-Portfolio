@@ -34,10 +34,10 @@ main {
 
 .menu a {
     Font-Family: 'Ubuntu', Sans-Serif;
-    Font-Size: 48px;
+
     Font-Family: 'Open Sans', Sans-Serif;
-    Font-Size: 15px;
-    font-size: 14px;
+
+
     display: block;
 
     text-decoration: none;
@@ -409,7 +409,7 @@ li.contact {
         margin-bottom: 0px;
         justify-content: space-evenly;
         display: inline-flex;
-        font-size: 11px;
+        font-size: 20px;
         background-color: black;
         margin-top: 7px;
 
