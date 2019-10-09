@@ -46,7 +46,7 @@ main {
     /*top to bottom*/
 
     /*from left to right*/
-    line-height: 70px;
+
     color: white;
 }
 
@@ -139,7 +139,7 @@ li.contact {
 
 
 #Github {
-    color: green;
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -147,7 +147,7 @@ li.contact {
 
 
 #Linkedin {
-    color: rgb(33, 124, 199);
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -161,7 +161,7 @@ li.contact {
     background-size: cover;
     background-position: bottom center;
 
-    padding-bottom: 680px;
+    min-height: 100vh;
 
 }
 
@@ -402,6 +402,9 @@ li.contact {
 
 @media only screen and (min-width:768px) {
 
+
+
+
     #toggle:checked+.menu {
         margin-bottom: 0px;
         justify-content: space-evenly;
@@ -411,6 +414,9 @@ li.contact {
         margin-top: 7px;
 
     }
+
+
+
 
     .menu {
         height: 0px;
@@ -436,7 +442,6 @@ li.contact {
         background-repeat: no-repeat;
         background-position: center;
         padding-top: 200px;
-        padding-bottom: 90px;
         font-size: 1.3em;
     }
 
@@ -503,10 +508,7 @@ li.contact {
 @media only screen and (min-width:1024px) {
 
 
-    .homePage {
-        padding-bottom: 1150px;
 
-    }
 
 
 
