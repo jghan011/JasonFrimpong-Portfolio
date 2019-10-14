@@ -1,7 +1,4 @@
 body {
-    /* background-size: 100% 100%, cover; */
-    /* background-repeat: no-repeat; */
-
     width: 100%;
     height: 100%;
     margin: 0;
@@ -33,49 +30,35 @@ main {
 
 .menu a {
     Font-Family: 'Ubuntu', Sans-Serif;
-
     Font-Family: 'Open Sans', Sans-Serif;
-
-
     display: block;
-
     text-decoration: none;
     margin: 0px;
     margin-right: 10px;
     /*top to bottom*/
-
     /*from left to right*/
-
     color: white;
     line-height: 20px;
 }
 
 #toggle:checked+.menu {
     justify-content: space-evenly;
-
     display: inline-flex;
-
     font-size: 11px;
-
     background-color: black;
-
-
 }
 
 #toggle {
     display: none;
-
 }
 
 
 
 label {
-
     margin: 0 25px 0 0;
     font-size: 26px;
     line-height: 10px;
     cursor: pointer;
-
     color: white;
     background-color: black;
 }
@@ -84,30 +67,23 @@ label {
 
 .middle {
     Font-Family: 'Ubuntu', Sans-Serif;
-    Font-Size: 48px;
-    Font-Family: 'Open Sans', Sans-Serif;
-    Font-Size: 15px;
-    font-size: 14px;
+    Font-Size: 14px;
     position: absolute;
     top: 40%;
     right: 14%;
     color: wheat;
     text-align: center;
-
-
 }
 
 
 .email {
     margin-right: 20px;
     font-weight: bold;
-
 }
 
 .line {
     margin-left: 20px;
     font-weight: bold;
-
 }
 
 li.contact {
@@ -155,14 +131,11 @@ li.contact {
 
 
 .homePage {
-
     background-image: url("https://main-inspirationfeed.netdna-ssl.com/wp-content/uploads/2019/06/mike-smith-644465-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-
     min-height: 100vh;
-
 }
 
 
@@ -198,7 +171,6 @@ li.contact {
     color: rgb(255, 255, 255);
     font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 /* projects info */
@@ -206,7 +178,6 @@ li.contact {
     display: none;
     background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     color: white;
-
     /* padding-top: 620px; */
     background-size: cover;
     min-height: 100vh;
@@ -215,52 +186,36 @@ li.contact {
 }
 
 .chelseaFc {
-
     margin-top: 0%;
-    /* position: absolute; */
-    /* top: 17%; */
     left: 1%;
-    /* color: rgb(248, 248, 179); */
+    text-align: center;
 }
 
 .chelseaLogo {
-
     border-style: none;
-    /* height: 100px; */
-    width: 95%;
+    width: 85%;
     height: auto;
-    margin: 0 auto;
-    /* position: absolute; */
-    /* height: 110px; */
-    /* top: 23%; */
-    /* left: 1%; */
+    margin-left: 20px;
     background: border-box;
     border: 1px solid rgb(255, 255, 187);
     cursor: pointer;
 }
 
 .Cfc-disc {
-    /* position: absolute; */
-    /* top: 46%; */
     width: 95%;
     height: auto;
-    margin: 0 auto;
-    text-indent: 3%;
-    /* left: 0%; */
+    margin-left: 5%;
+    text-indent: 5%;
     background: border-box;
-    /* color: rgb(248, 248, 179); */
     font-size: 1.23em;
     font-weight: bold;
 }
 
 .languages {
-
-    position: absolute;
-    top: 75%;
+    margin-left: 15px;
+    margin-top: 80px;
     font-weight: bold;
     font-size: 1.23em;
-    /* color: rgb(255, 255, 142); */
-
 }
 
 /* ene of projects section */
@@ -272,7 +227,6 @@ li.contact {
 
 
     .bioPage {
-
         margin-top: 10px;
         width: 100%;
         height: 100%;
@@ -302,9 +256,7 @@ li.contact {
     .projects {
         background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
         background-size: 100% 100%, cover;
-
         background-position: bottom center;
-
     }
 
     .Cfc-disc {
@@ -323,7 +275,6 @@ li.contact {
         top: 19%;
         left: 1%;
         /* color: rgb(248, 248, 179); */
-
     }
 
     .chelseaLogo {
