@@ -68,22 +68,19 @@ label {
 .middle {
     Font-Family: 'Ubuntu', Sans-Serif;
     Font-Size: 14px;
-    position: absolute;
+
     top: 40%;
     right: 14%;
     color: wheat;
     text-align: center;
 }
 
-i.fas.fa-envelope {
-    padding-right: 10px;
-}
 
-.linkedin-page {
-    padding-right: 10px;
-}
 
-.email {
+
+
+.email:hover {
+
     margin-right: 20px;
     font-weight: bold;
 }
@@ -589,6 +586,46 @@ li.contact {
 
 
 @media only screen and (min-width:1440px) {
+    .Contact {
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .email {
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .linkedin-page {
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    .github-page {
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
     .projects {
         background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
@@ -663,10 +700,37 @@ li.contact {
     }
 
     .middle {
+        padding-top: 190px;
+        margin-left: 850px;
+        width: 40%;
         color: black;
         Font-Family: 'Ubuntu', Sans-Serif;
         Font-Size: 26px;
 
+
+    }
+
+    .Contact:hover {
+        background-color: black;
+        color: white;
+
+    }
+
+    .email:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    .linkedin-page:hover {
+        background-color: white;
+        color: black;
+
+    }
+
+    .github-page:hover {
+        background-color: white;
+        color: black;
 
     }
 
