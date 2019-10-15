@@ -75,6 +75,13 @@ label {
     text-align: center;
 }
 
+i.fas.fa-envelope {
+    padding-right: 10px;
+}
+
+.linkedin-page {
+    padding-right: 10px;
+}
 
 .email {
     margin-right: 20px;
@@ -131,7 +138,7 @@ li.contact {
 
 
 .homePage {
-    background-image: url("https://main-inspirationfeed.netdna-ssl.com/wp-content/uploads/2019/06/mike-smith-644465-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://main-inspirationfeed.netdna-ssl.com/wp-content/uploads/2019/06/mike-smith-644465-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
