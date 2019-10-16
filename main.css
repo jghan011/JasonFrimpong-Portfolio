@@ -66,16 +66,62 @@ label {
 /* end of navigation section */
 
 .middle {
-    Font-Family: 'Ubuntu', Sans-Serif;
-    Font-Size: 14px;
-
+    Font-Family: 'Ubuntu',
+        Sans-Serif;
+    Font-Size: 8px;
+    padding-top: 275px;
+    padding-left: 60px;
     top: 40%;
     right: 14%;
     color: wheat;
     text-align: center;
+    width: 79%;
 }
 
+.Contact {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70px;
+}
 
+.email {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.linkedin-page {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70px;
+
+}
+
+.github-page {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70px;
+}
 
 
 
@@ -148,7 +194,7 @@ li.contact {
 
 .bioPage {
     display: none;
-    background-image: url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     margin-top: 10px;
     width: 100%;
     height: 100%;
@@ -228,7 +274,9 @@ li.contact {
 
 @media only screen and (min-width: 375px) {
 
-
+    .Contact {
+        width: 30%;
+    }
 
     .bioPage {
         margin-top: 10px;
@@ -305,6 +353,32 @@ li.contact {
 
 
 @media only screen and (min-width:425px) {
+
+    .middle {
+        font-size: 10px;
+
+    }
+
+    .Contact {
+        margin-left: 110px;
+    }
+
+    .email {
+        margin-left: 110px;
+
+    }
+
+    .linkedin-page {
+        margin-left: 110px;
+
+    }
+
+    .github-page {
+        margin-left: 110px;
+
+    }
+
+
     .Cfc-disc {
         position: absolute;
         top: 41%;
@@ -359,6 +433,27 @@ li.contact {
 
 
 
+    .Contact {
+        margin-left: 250px;
+    }
+
+    .email {
+        margin-left: 250px;
+
+    }
+
+    .linkedin-page {
+        margin-left: 250px;
+
+    }
+
+    .github-page {
+        margin-left: 250px;
+
+    }
+
+
+
 
     #toggle:checked+.menu {
         margin-bottom: 0px;
@@ -403,7 +498,7 @@ li.contact {
 
     .middle {
         color: black;
-        font-size: 1.14em;
+        font-size: 1.0em;
     }
 
     .languages {
@@ -586,46 +681,33 @@ li.contact {
 
 
 @media only screen and (min-width:1440px) {
+
+
+    .middle {
+        font-size: 10px;
+
+    }
+
     .Contact {
-        background-color: white;
-        border-radius: 20px;
-        color: black;
-        padding: 20px;
-        margin-right: 20px;
-        font-weight: bold;
-        cursor: pointer;
+        margin-left: 650px;
     }
 
     .email {
-        background-color: black;
-        border-radius: 20px;
-        color: white;
-        padding: 20px;
-        margin-right: 20px;
-        font-weight: bold;
-        cursor: pointer;
+        margin-left: 610px;
+
     }
 
     .linkedin-page {
-        background-color: black;
-        border-radius: 20px;
-        color: white;
-        padding: 20px;
-        margin-right: 20px;
-        font-weight: bold;
-        cursor: pointer;
+        margin-left: 650px;
 
     }
 
     .github-page {
-        background-color: black;
-        border-radius: 20px;
-        color: white;
-        padding: 20px;
-        margin-right: 20px;
-        font-weight: bold;
-        cursor: pointer;
+        margin-left: 650px;
+
     }
+
+
 
     .projects {
         background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
@@ -695,20 +777,11 @@ li.contact {
     .homePage {
 
         background-size: cover;
-
-
-    }
-
-    .middle {
-        padding-top: 190px;
-        margin-left: 850px;
-        width: 40%;
-        color: black;
-        Font-Family: 'Ubuntu', Sans-Serif;
-        Font-Size: 26px;
-
+        min-height: 100vh;
 
     }
+
+
 
     .Contact:hover {
         background-color: black;
