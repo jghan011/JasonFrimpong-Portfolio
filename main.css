@@ -590,6 +590,11 @@ li.contact {
 
     .middle {
         font-size: 1.3em;
+        width: 65%;
+        padding-left: 250px;
+        /* margin-left: 400px; */
+        font-size: 1.3em;
+
     }
 
     .chelseaFc {
@@ -682,32 +687,51 @@ li.contact {
 
 @media only screen and (min-width:1440px) {
 
-
     .middle {
-        font-size: 10px;
-
+        width: 50%;
+        margin-left: 390px;
     }
 
     .Contact {
-        margin-left: 650px;
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
     }
 
     .email {
-        margin-left: 610px;
-
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
     }
 
     .linkedin-page {
-        margin-left: 650px;
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
 
     }
 
     .github-page {
-        margin-left: 650px;
-
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
     }
-
-
 
     .projects {
         background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
