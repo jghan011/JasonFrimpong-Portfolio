@@ -209,18 +209,27 @@ li.contact {
 
 
 .paragraph {
+
     color: rgb(255, 255, 255);
-    font-size: 1.3em;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: .9em;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    margin: 36px;
+    text-indent: 5%;
+    line-height: 28px;
 
 }
 
 
 
 .paragraphTwo {
+
     color: rgb(255, 255, 255);
-    font-size: 1.3em;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: .9em;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    margin: 36px;
+    text-indent: 5%;
+    line-height: 27px;
+
 }
 
 /* projects info */
@@ -392,13 +401,15 @@ li.contact {
     .paragraph {
         font-size: 1.2em;
         color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 38px;
     }
 
     .paragraphTwo {
         font-size: 1.2em;
         color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 38px;
     }
 
 
@@ -512,14 +523,16 @@ li.contact {
     .paragraph {
         font-size: 1.4em;
         color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
     }
 
 
     .paragraphTwo {
         font-size: 1.4em;
         color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
     }
 
     .Cfc-disc {
@@ -577,14 +590,16 @@ li.contact {
     .paragraph {
         font-size: 1.5em;
         color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
     }
 
 
     .paragraphTwo {
         font-size: 1.5em;
         color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
     }
 
 
