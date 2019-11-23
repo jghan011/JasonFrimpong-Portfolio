@@ -761,7 +761,7 @@ li.contact {
     .projects {
         background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
         background-size: cover;
-        min-height: 105vh;
+        min-height: 109vh;
 
         background-position: bottom center;
 
@@ -810,7 +810,7 @@ li.contact {
         font-size: 2.3em;
         text-decoration: underline;
         top: 10%;
-        margin-right: 90px;
+        margin-right: 0px;
 
     }
 
