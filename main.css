@@ -52,7 +52,9 @@ main {
     display: none;
 }
 
-
+.name {
+    cursor: auto;
+}
 
 label {
     margin: 0 25px 0 0;
@@ -85,9 +87,11 @@ label {
     padding: 5px;
     margin-right: 20px;
     font-weight: bold;
-    cursor: pointer;
     margin-left: 70px;
 }
+
+
+
 
 .email {
     background-color: black;
@@ -96,7 +100,7 @@ label {
     padding: 5px;
     margin-right: 20px;
     font-weight: bold;
-    cursor: pointer;
+
     margin-left: 70px;
 }
 
@@ -112,6 +116,8 @@ label {
 
 }
 
+
+
 .github-page {
     background-color: black;
     border-radius: 20px;
@@ -123,6 +129,10 @@ label {
     margin-left: 70px;
 }
 
+.github-page:hover {
+    background-color: white;
+    color: black;
+}
 
 
 .email:hover {
@@ -237,6 +247,7 @@ li.contact {
     display: none;
     background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     color: white;
+
     /* padding-top: 620px; */
     background-size: cover;
     min-height: 100vh;
@@ -292,6 +303,7 @@ li.contact {
 
     .Contact {
         width: 30%;
+
     }
 
     .bioPage {
@@ -725,7 +737,7 @@ li.contact {
         padding: 20px;
         margin-right: 20px;
         font-weight: bold;
-        cursor: pointer;
+
     }
 
     .email {
@@ -735,7 +747,7 @@ li.contact {
         padding: 20px;
         margin-right: 20px;
         font-weight: bold;
-        cursor: pointer;
+
     }
 
     .linkedin-page {
@@ -747,6 +759,11 @@ li.contact {
         font-weight: bold;
         cursor: pointer;
 
+    }
+
+    .linkedin-page:hover {
+        background-color: white;
+        color: black;
     }
 
     .github-page {
@@ -846,11 +863,7 @@ li.contact {
 
     }
 
-    .linkedin-page:hover {
-        background-color: white;
-        color: black;
 
-    }
 
     .github-page:hover {
         background-color: white;
