@@ -2,30 +2,18 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-
 }
 
 main {
     /* background-size: cover; */
-
 }
 
-/* navigation section */
-.nav {
-    background-color: black;
-    border-bottom: 1px solid red;
-    text-align: right;
-    line-height: 50px;
 
-
-}
 
 .menu {
     display: none;
     text-align: center;
     width: 100%;
-
-
 }
 
 .menu a {
@@ -48,6 +36,83 @@ main {
     background-color: black;
 }
 
+/* navbar contents */
+.navbar-dark .navbar-nav .nav-link {
+    color: azure;
+}
+
+.color {
+    color: black;
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+    /* color: white; */
+}
+
+#Linkedin {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#Github {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* end of navbar content */
+
+/* profile card info */
+.container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    position: relative;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    width: 250px;
+    margin: 250px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.container .card .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5x ease-in-out;
+}
+
+/* end of profile card */
+
+
+button span {
+    color: white;
+}
+
+
 #toggle {
     display: none;
 }
@@ -68,8 +133,7 @@ label {
 /* end of navigation section */
 
 .middle {
-    Font-Family: 'Ubuntu',
-        Sans-Serif;
+    Font-Family: 'Ubuntu', Sans-Serif;
     Font-Size: 8px;
     padding-top: 275px;
     padding-left: 60px;
@@ -89,9 +153,6 @@ label {
     font-weight: bold;
     margin-left: 70px;
 }
-
-
-
 
 .email {
     background-color: black;
@@ -113,10 +174,7 @@ label {
     font-weight: bold;
     cursor: pointer;
     margin-left: 70px;
-
 }
-
-
 
 .github-page {
     background-color: black;
@@ -134,9 +192,7 @@ label {
     color: black;
 }
 
-
 .email:hover {
-
     margin-right: 20px;
     font-weight: bold;
 }
@@ -158,53 +214,30 @@ li.contact {
     font-weight: bold;
 }
 
-
 .bioLink {
+    display: inline-block;
     cursor: pointer;
     font-weight: bold;
 }
-
-
 
 .portfolio {
     cursor: pointer;
     font-weight: bold;
 }
 
-
-
-
-#Github {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-
-
-#Linkedin {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-
-
 .homePage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://main-inspirationfeed.netdna-ssl.com/wp-content/uploads/2019/06/mike-smith-644465-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("https://main-inspirationfeed.netdna-ssl.com/wp-content/uploads/2019/06/mike-smith-644465-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
     min-height: 100vh;
 }
 
-
-
-
-
 .bioPage {
     display: none;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     margin-top: 10px;
     width: 100%;
     height: 100%;
@@ -217,34 +250,28 @@ li.contact {
     font-size: 1.4em;
 }
 
-
 .paragraph {
-
     color: rgb(255, 255, 255);
     font-size: .9em;
     Font-Family: 'Ubuntu', Sans-Serif;
     margin: 36px;
     text-indent: 5%;
     line-height: 28px;
-
 }
 
-
-
 .paragraphTwo {
-
     color: rgb(255, 255, 255);
     font-size: .9em;
     Font-Family: 'Ubuntu', Sans-Serif;
     margin: 36px;
     text-indent: 5%;
     line-height: 27px;
-
 }
 
 /* projects info */
 .projects {
     display: none;
+    position: relative;
     background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     color: white;
 
@@ -292,19 +319,16 @@ li.contact {
     margin-top: 80px;
     font-weight: bold;
     font-size: 1.23em;
-
 }
 
 /* ene of projects section */
 
-;
-
 @media only screen and (min-width: 375px) {
-
     .Contact {
         width: 30%;
-
     }
+
+
 
     .bioPage {
         margin-top: 10px;
@@ -319,24 +343,16 @@ li.contact {
         font-weight: bold;
     }
 
-
     .paragraph {
         color: rgb(255, 255, 255);
         font-size: 1.09em;
         font-family: 'Times New Roman', Times, serif;
     }
 
-
     .paragraphTwo {
         color: rgb(255, 255, 255);
         font-size: 1.0em;
         font-family: 'Times New Roman', Times, serif;
-    }
-
-    .projects {
-        background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
-        background-size: 100% 100%, cover;
-        background-position: bottom center;
     }
 
     .Cfc-disc {
@@ -348,7 +364,6 @@ li.contact {
         background: border-box;
         /* color: rgb(248, 248, 179); */
     }
-
 
     .chelseaFc {
         position: absolute;
@@ -369,7 +384,6 @@ li.contact {
         cursor: pointer;
     }
 
-
     .languages {
         position: absolute;
         top: 65%;
@@ -377,14 +391,9 @@ li.contact {
     }
 }
 
-
-
-
-@media only screen and (min-width:425px) {
-
+@media only screen and (min-width: 425px) {
     .middle {
         font-size: 10px;
-
     }
 
     .Contact {
@@ -393,19 +402,15 @@ li.contact {
 
     .email {
         margin-left: 110px;
-
     }
 
     .linkedin-page {
         margin-left: 110px;
-
     }
 
     .github-page {
         margin-left: 110px;
-
     }
-
 
     .Cfc-disc {
         font-size: 1.4em;
@@ -432,9 +437,6 @@ li.contact {
         line-height: 38px;
     }
 
-
-
-
     .bioPage {
         width: 100%;
         height: 100%;
@@ -455,37 +457,25 @@ li.contact {
         font-size: 25px;
         margin-top: 100px;
         color: rgb(255, 255, 142);
-
     }
 }
 
-
-
-@media only screen and (min-width:768px) {
-
-
-
+@media only screen and (min-width: 768px) {
     .Contact {
         margin-left: 250px;
     }
 
     .email {
         margin-left: 250px;
-
     }
 
     .linkedin-page {
         margin-left: 250px;
-
     }
 
     .github-page {
         margin-left: 250px;
-
     }
-
-
-
 
     #toggle:checked+.menu {
         margin-bottom: 0px;
@@ -494,15 +484,10 @@ li.contact {
         font-size: 20px;
         background-color: black;
         margin-top: 7px;
-
     }
-
-
-
 
     .menu {
         height: 0px;
-
     }
 
     .nav {
@@ -516,7 +501,6 @@ li.contact {
         line-height: 45px;
     }
 
-
     .bioPage {
         width: 100%;
         height: 100%;
@@ -526,7 +510,6 @@ li.contact {
         padding-top: 200px;
         font-size: 1.3em;
     }
-
 
     .middle {
         color: black;
@@ -548,7 +531,6 @@ li.contact {
         Font-Family: 'Ubuntu', Sans-Serif;
         line-height: 40px;
     }
-
 
     .paragraphTwo {
         font-size: 1.4em;
@@ -587,26 +569,14 @@ li.contact {
     }
 }
 
-
-
-@media only screen and (min-width:1024px) {
-
-
-
-
-
-
+@media only screen and (min-width: 1024px) {
     .bioPage {
-
         margin: 0;
         background-repeat: no-repeat;
         background-position: center;
         min-height: 42vh;
         font-size: 1.3em;
     }
-
-
-
 
     .paragraph {
         font-size: 1.5em;
@@ -615,7 +585,6 @@ li.contact {
         line-height: 40px;
     }
 
-
     .paragraphTwo {
         font-size: 1.5em;
         color: rgb(255, 255, 255);
@@ -623,14 +592,12 @@ li.contact {
         line-height: 40px;
     }
 
-
     .middle {
         font-size: 1.3em;
         width: 65%;
         padding-left: 250px;
         /* margin-left: 400px; */
         font-size: 1.3em;
-
     }
 
     .chelseaFc {
@@ -639,7 +606,6 @@ li.contact {
         /* color: rgb(248, 248, 179); */
         font-size: 2.5em;
     }
-
 
     .Cfc-disc {
         /* color: rgb(248, 248, 179); */
@@ -653,7 +619,6 @@ li.contact {
     }
 
     .languages {
-
         font-size: 2.0em;
         color: rgb(255, 255, 142);
         margin-top: 220px;
@@ -674,8 +639,6 @@ li.contact {
         font-size: 23px;
     }
 
-
-
     #Linkedin {
         color: white;
         font-weight: bold;
@@ -686,22 +649,17 @@ li.contact {
         display: none;
     }
 
-
-
     #toggle:checked+.menu {
         display: none;
     }
-
 
     .name {
         padding-right: 335px;
     }
 
-
     .menu {
         display: inline-flex;
         justify-content: flex-end;
-
     }
 
     .menu a {
@@ -717,13 +675,9 @@ li.contact {
         line-height: 60px;
         color: white;
     }
-
 }
 
-
-
-@media only screen and (min-width:1440px) {
-
+@media only screen and (min-width: 1440px) {
     .middle {
         width: 50%;
         padding-bottom: 170px;
@@ -737,7 +691,6 @@ li.contact {
         padding: 20px;
         margin-right: 20px;
         font-weight: bold;
-
     }
 
     .email {
@@ -747,7 +700,6 @@ li.contact {
         padding: 20px;
         margin-right: 20px;
         font-weight: bold;
-
     }
 
     .linkedin-page {
@@ -758,7 +710,6 @@ li.contact {
         margin-right: 20px;
         font-weight: bold;
         cursor: pointer;
-
     }
 
     .linkedin-page:hover {
@@ -779,17 +730,14 @@ li.contact {
     .projects {
         background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
         background-size: cover;
-        min-height: 109vh;
+        min-height: 120vh;
 
         background-position: bottom center;
-
     }
 
     .bioPage {
         background-size: cover;
     }
-
-
 
     #Github {
         color: white;
@@ -797,17 +745,11 @@ li.contact {
         font-size: 23px;
     }
 
-
-
     #Linkedin {
         color: white;
         font-weight: bold;
         font-size: 23px;
     }
-
-
-
-
 
     .Cfc-disc {
         font-family: 'Ubuntu', sans-serif;
@@ -829,7 +771,6 @@ li.contact {
         text-decoration: underline;
         top: 10%;
         margin-right: 0px;
-
     }
 
     .chelseaLogo {
@@ -839,38 +780,27 @@ li.contact {
         cursor: pointer;
         margin-top: 1px;
         margin-left: 500px;
-
     }
 
     .homePage {
-
         background-size: cover;
         min-height: 100vh;
-
     }
-
-
 
     .Contact:hover {
         background-color: black;
         color: white;
-
     }
 
     .email:hover {
         background-color: white;
         color: black;
-
     }
-
-
 
     .github-page:hover {
         background-color: white;
         color: black;
-
     }
-
 
     .languages {
         Font-Family: 'Open Sans', Sans-Serif;
@@ -879,12 +809,9 @@ li.contact {
         /* color: rgb(255, 255, 142); */
     }
 
-
     label {
         display: none;
     }
-
-
 
     #toggle:checked+.menu {
         display: none;
@@ -892,15 +819,12 @@ li.contact {
 
     .name {
         padding-right: 680px;
-
     }
 
     .menu {
         margin-top: 10px;
         display: inline-flex;
         justify-content: space-evenly;
-
-
     }
 
     .menu a {
@@ -917,7 +841,6 @@ li.contact {
         color: white;
     }
 
-
     .paragraph {
         text-indent: 8%;
         word-spacing: 8px;
@@ -925,7 +848,6 @@ li.contact {
         margin: 70px;
         line-height: 45px;
         color: rgb(255, 255, 255);
-
     }
 
     .paragraphTwo {
@@ -936,6 +858,5 @@ li.contact {
         line-height: 45px;
         font-weight: bold;
         color: rgb(255, 255, 255);
-
     }
 }

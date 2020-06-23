@@ -8,6 +8,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- this is the bootstrap info -->
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+  
+    <!-- this is the bootstrap info -->
+
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
   <link rel="stylesheet" type="text/css" href="main.css" />
   <script src="https://kit.fontawesome.com/de5b636b4b.js"></script>
@@ -16,21 +34,64 @@
 
 <body class="body">
   <main>
-    <nav class="nav">
-      <label for="toggle">&#9776;</label>
-      <input type="checkbox" id="toggle" />
-      <div class="menu">
-        <a href="#" class="name">JASON FRIMPONG</a>
-        <a href="#" class="home">Home</a>
-        <a href="#" class="portfolio">Portfolio</a>
-        <a href="#" class="bioLink">About Me</a>
-        <a href="https://www.linkedin.com/in/jasonfrimpong/" target="Linkedin" id="Linkedin"><i
-            class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/jghan011" target="Github" id="Github"><i class="fab fa-github"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-dark  color">
+      <!-- Brand -->
+      <!-- <a class="navbar-brand ml-auto" href="#">Jason's Portfolio</a> -->
+    
+      <!-- Toggler/collapsibe Button -->
+      <button class=" navbar-toggler button navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" stroke = "white">
+        <span class="navbar-toggler-icon ml-auto navbar-light"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
+      </button>
+
+      <a class="navbar-brand ml-auto Jason h1" href="#">Jason's Portfolio</a>
+    
+      <!-- Navbar links -->
+      <div class="mr-auto collapse navbar-collapse color" id="collapsibleNavbar">
+       
+        <ul class="navbar-nav mr-auto h4">
+          <li class="nav-item color"> 
+            <a class="nav-link home" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link portfolio" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bioLink" href="#">About Me</a>
+          </li>
+          <li class="nav-item"> 
+            <a href="https://www.linkedin.com/in/jasonfrimpong/" target="Linkedin" id="Linkedin"><i
+                class="fab fa-linkedin nav-link"></i></a>
+                </li>
+                <li class="nav-item"> 
+                  <a href="https://github.com/jghan011" target="Github" id="Github"><i class="fab fa-github nav-link"></i></a>
+                  </li>
+        </ul>
       </div>
+      <!-- <a class="navbar-brand ml-auto Jason h1" href="#">Jason's Portfolio</a> -->
     </nav>
+    
+
+
+
     <section class="homePage">
-      <div class="middle">
+<div class="container">
+  <div class="card">
+    <div class="imgBx" data-text="JASON FRIMPONG">
+      <img src="html-icon-code-14.jpg">
+  
+  </div>
+  <div class="content">
+  </div>
+  <h3>JASON FRIMPONG</h3>
+<p>
+  lorem ipsum dolor sit amet,consectetur adipisicing  elit, sed do eirsmod tempor incididunt ut
+</p>
+<a href="">read more</a>
+</div>
+</div>
+</div>
+</div>
+      <!-- <div class="middle">
         <h3 class="Contact">CONTACT JASON</h3>
         <h3 class="email">
           <i class="fas fa-envelope"></i>Jasont.Frimpong@gmail.com
@@ -45,7 +106,7 @@
             <i class="fab fa-github"></i>https://github.com/jghan011
           </h3>
         </a>
-      </div>
+      </div> -->
     </section>
 
     <section class="bioPage">
