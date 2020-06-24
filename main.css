@@ -230,8 +230,8 @@ li.contact {
 }
 
 .homePage {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-		url("https://main-inspirationfeed.netdna-ssl.com/wp-content/uploads/2019/06/mike-smith-644465-unsplash.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.2)),
+		url("tevin-trinh-umv7ib2nqlA-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
@@ -343,6 +343,11 @@ li.contact {
 		padding-bottom: 400px;
 		font-size: 1.3em;
 		font-weight: bold;
+	}
+
+	.homePage {
+		background-size: cover;
+		min-height: 100vh;
 	}
 
 	.paragraph {
