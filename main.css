@@ -230,7 +230,9 @@ li.contact {
 }
 
 .homePage {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.2)),
+	color: black;
+	background-color: black;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.308)),
 		url("tevin-trinh-umv7ib2nqlA-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -276,13 +278,18 @@ li.contact {
 .projects {
 	display: none;
 	position: relative;
-	background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-image: url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	color: white;
 
 	/* padding-top: 620px; */
 	background-size: cover;
-	min-height: 100vh;
-	background-position: bottom center;
+
 	cursor: pointer;
 }
 
@@ -735,12 +742,13 @@ li.contact {
 	}
 
 	.projects {
-		background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-			no-repeat;
+		background-image: url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
+		width: 100%;
+		height: 100vh;
+		margin: 0;
 		background-size: cover;
-		min-height: 120vh;
-
-		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 	.bioPage {
