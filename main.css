@@ -45,6 +45,16 @@ main {
 	font-size: 24px;
 	margin-left: 30px;
 }
+
+.navbar-dark .navbar-toggler {
+	color: rgba(255, 255, 255, .5);
+	border-color: rgba(255, 255, 255, .1);
+	border-color: white;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
 .color {
 	color: black;
 	background-color: black;
@@ -71,9 +81,11 @@ main {
 	font-weight: bold;
 	font-size: 20px;
 }
+
 .ul-info {
 	margin-right: 30px;
 }
+
 /* end of navbar content */
 
 /* profile card info */
@@ -238,6 +250,10 @@ li.contact {
 	background-size: cover;
 	background-position: bottom center;
 	min-height: 100vh;
+}
+
+.homepageWelcome {
+	font-weight: bold;
 }
 
 .bioPage {
