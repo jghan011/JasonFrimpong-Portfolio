@@ -1,895 +1,885 @@
 body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
 }
 
 main {
-	/* background-size: cover; */
+    /* background-size: cover; */
 }
 
 .menu {
-	display: none;
-	text-align: center;
-	width: 100%;
+    display: none;
+    text-align: center;
+    width: 100%;
 }
 
 .menu a {
-	Font-Family: 'Ubuntu', Sans-Serif;
-	Font-Family: 'Open Sans', Sans-Serif;
-	display: block;
-	text-decoration: none;
-	margin: 0px;
-	margin-right: 10px;
-	/*top to bottom*/
-	/*from left to right*/
-	color: white;
-	line-height: 20px;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    Font-Family: 'Open Sans', Sans-Serif;
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    margin-right: 10px;
+    /*top to bottom*/
+    /*from left to right*/
+    color: white;
+    line-height: 20px;
 }
 
-#toggle:checked + .menu {
-	justify-content: space-evenly;
-	display: inline-flex;
-	font-size: 11px;
-	background-color: black;
+#toggle:checked+.menu {
+    justify-content: space-evenly;
+    display: inline-flex;
+    font-size: 11px;
+    background-color: black;
 }
 
 /* navbar contents */
 .navbar-dark .navbar-nav .nav-link {
-	color: azure;
+    color: azure;
 }
 
 .navbar-dark .navbar-brand {
-	color: #fff;
-	font-weight: bold;
-	font-size: 24px;
-	margin-left: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 30px;
 }
 
 .navbar-dark .navbar-toggler {
-	color: rgba(255, 255, 255, .5);
-	border-color: rgba(255, 255, 255, .1);
-	border-color: white;
-	margin-left: 25px;
-	margin-bottom: 20px;
-	margin-top: 10px;
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .1);
+    border-color: white;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .color {
-	color: black;
-	background-color: black;
+    color: black;
+    background-color: black;
 }
 
 .nav-link {
-	color: white;
+    color: white;
 }
 
-.navbar-nav > li {
-	padding-left: 30px;
-	padding-right: 30px;
-	/* color: white; */
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+    /* color: white; */
 }
 
 #Linkedin {
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #Github {
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .ul-info {
-	margin-right: 30px;
+    margin-right: 30px;
 }
 
 /* end of navbar content */
 
 /* profile card info */
 .container {
-	position: relative;
-	width: 1000px;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .container .card {
-	position: relative;
-	height: 250px;
-	background: #fff;
-	display: flex;
-	width: 250px;
-	margin: 250px;
-	margin-left: auto;
-	margin-right: 20px;
+    position: relative;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    width: 250px;
+    margin: 250px;
+    margin-left: auto;
+    margin-right: 20px;
 }
 
 .container .card .imgBx {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #333;
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	transition: 0.5x ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5x ease-in-out;
 }
 
 /* end of profile card */
 
 button span {
-	color: white;
+    color: white;
 }
 
 #toggle {
-	display: none;
+    display: none;
 }
 
 .name {
-	cursor: auto;
+    cursor: auto;
 }
 
 label {
-	margin: 0 25px 0 0;
-	font-size: 26px;
-	line-height: 10px;
-	cursor: pointer;
-	color: white;
-	background-color: black;
+    margin: 0 25px 0 0;
+    font-size: 26px;
+    line-height: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
 
 /* end of navigation section */
 
 .middle {
-	Font-Family: 'Ubuntu', Sans-Serif;
-	Font-Size: 8px;
-	padding-top: 275px;
-	padding-left: 60px;
-	top: 40%;
-	right: 14%;
-	color: wheat;
-	text-align: center;
-	width: 79%;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    Font-Size: 8px;
+    padding-top: 275px;
+    padding-left: 60px;
+    top: 40%;
+    right: 14%;
+    color: wheat;
+    text-align: center;
+    width: 79%;
 }
 
 .Contact {
-	background-color: white;
-	border-radius: 20px;
-	color: black;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
-	margin-left: 70px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-left: 70px;
 }
 
 .email {
-	background-color: black;
-	border-radius: 20px;
-	color: white;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
 
-	margin-left: 70px;
+    margin-left: 70px;
 }
 
 .linkedin-page {
-	background-color: black;
-	border-radius: 20px;
-	color: white;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
-	cursor: pointer;
-	margin-left: 70px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70px;
 }
 
 .github-page {
-	background-color: black;
-	border-radius: 20px;
-	color: white;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
-	cursor: pointer;
-	margin-left: 70px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70px;
 }
 
 .github-page:hover {
-	background-color: white;
-	color: black;
+    background-color: white;
+    color: black;
 }
 
 .email:hover {
-	margin-right: 20px;
-	font-weight: bold;
+    margin-right: 20px;
+    font-weight: bold;
 }
 
 .line {
-	margin-left: 20px;
-	font-weight: bold;
+    margin-left: 20px;
+    font-weight: bold;
 }
 
 li.contact {
-	float: left;
-	margin-left: 25px;
-	cursor: pointer;
-	font-weight: bold;
+    float: left;
+    margin-left: 25px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .home {
-	cursor: pointer;
-	font-weight: bold;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .bioLink {
-	display: inline-block;
-	cursor: pointer;
-	font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .portfolio {
-	cursor: pointer;
-	font-weight: bold;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .homePage {
-	color: black;
-	background-color: black;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.308)),
-		url("tevin-trinh-umv7ib2nqlA-unsplash.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom center;
-	min-height: 100vh;
+    color: black;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0)),
+        url("tevin-trinh-umv7ib2nqlA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    min-height: 100vh;
 }
 
 .homepageWelcome {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .bioPage {
-	display: none;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-		url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	margin-top: 10px;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding-top: 200px;
-	padding-bottom: 400px;
-	font-size: 1.4em;
+    display: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    font-size: 1.4em;
 }
 
 .paragraph {
-	color: rgb(255, 255, 255);
-	font-size: .9em;
-	Font-Family: 'Ubuntu', Sans-Serif;
-	margin: 36px;
-	text-indent: 5%;
-	line-height: 28px;
+    color: rgb(255, 255, 255);
+    font-size: .9em;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    margin: 36px;
+    text-indent: 5%;
+    line-height: 28px;
 }
 
 .paragraphTwo {
-	color: rgb(255, 255, 255);
-	font-size: .9em;
-	Font-Family: 'Ubuntu', Sans-Serif;
-	margin: 36px;
-	text-indent: 5%;
-	line-height: 27px;
+    color: rgb(255, 255, 255);
+    font-size: .9em;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    margin: 36px;
+    text-indent: 5%;
+    line-height: 27px;
 }
 
 /* projects info */
 .projects {
-	display: none;
-	position: relative;
-	background-image: url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	color: white;
+    display: none;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.637)), url("tolga-ahmetler-9_PBJVYDPIU-unsplash.jpg");
+    min-height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-	/* padding-top: 620px; */
-	background-size: cover;
+    color: white;
 
-	cursor: pointer;
+    /* padding-top: 620px; */
+    background-size: cover;
+
+    cursor: pointer;
 }
 
 .chelseaFc {
-	font-size: 1.6em;
-	margin-top: 0%;
-	left: 1%;
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6em;
+    margin-top: 0%;
+    left: 1%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .chelseaLogo {
-	border-style: none;
-	width: 85%;
-	height: auto;
-	margin-left: 20px;
-	background: border-box;
-	border: 1px solid rgb(255, 255, 187);
-	cursor: pointer;
+    border-style: none;
+    width: 85%;
+    height: auto;
+    margin-left: 20px;
+    background: border-box;
+    border: 1px solid rgb(255, 255, 187);
+    cursor: pointer;
 }
 
 .Cfc-disc {
-	font-family: 'Ubuntu', sans-serif;
-	width: 95%;
-	height: auto;
-	margin-left: 5%;
-	text-indent: 5%;
-	background: border-box;
-	font-size: 1.23em;
-	font-weight: bold;
-	line-height: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 95%;
+    height: auto;
+    margin-left: 5%;
+    text-indent: 5%;
+    background: border-box;
+    font-size: 1.23em;
+    font-weight: bold;
+    line-height: 27px;
 }
 
 .languages {
-	Font-Family: 'Open Sans', Sans-Serif;
-	color: rgb(255, 255, 142);
-	margin-left: 15px;
-	margin-top: 80px;
-	font-weight: bold;
-	font-size: 1.23em;
+    Font-Family: 'Open Sans', Sans-Serif;
+    color: rgb(255, 255, 142);
+    margin-left: 15px;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 1.23em;
 }
 
 /* ene of projects section */
 
 @media only screen and (min-width: 375px) {
-	.Contact {
-		width: 30%;
-	}
+    .Contact {
+        width: 30%;
+    }
 
-	.bioPage {
-		margin-top: 10px;
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		padding-top: 200px;
-		padding-bottom: 400px;
-		font-size: 1.3em;
-		font-weight: bold;
-	}
+    .bioPage {
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        padding-bottom: 400px;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
 
-	.homePage {
-		background-size: cover;
-		min-height: 100vh;
-	}
+    .homePage {
+        background-size: cover;
+        min-height: 100vh;
+    }
 
-	.paragraph {
-		color: rgb(255, 255, 255);
-		font-size: 1.09em;
-		font-family: 'Times New Roman', Times, serif;
-	}
+    .paragraph {
+        color: rgb(255, 255, 255);
+        font-size: 1.09em;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
-	.paragraphTwo {
-		color: rgb(255, 255, 255);
-		font-size: 1.0em;
-		font-family: 'Times New Roman', Times, serif;
-	}
+    .paragraphTwo {
+        color: rgb(255, 255, 255);
+        font-size: 1.0em;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
-	.Cfc-disc {
-		position: absolute;
-		top: 39%;
-		width: 88%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		/* color: rgb(248, 248, 179); */
-	}
+    .Cfc-disc {
+        position: absolute;
+        top: 39%;
+        width: 88%;
+        text-indent: 3%;
+        left: 0%;
+        background: border-box;
+        /* color: rgb(248, 248, 179); */
+    }
 
-	.chelseaFc {
-		position: absolute;
-		top: 19%;
-		left: 1%;
-		/* color: rgb(248, 248, 179); */
-	}
+    .chelseaFc {
+        position: absolute;
+        top: 19%;
+        left: 1%;
+        /* color: rgb(248, 248, 179); */
+    }
 
-	.chelseaLogo {
-		border-style: none;
-		height: 100px;
-		position: absolute;
-		height: 110px;
-		top: 25%;
-		left: 1%;
-		background: border-box;
-		border: 1px solid rgb(255, 255, 187);
-		cursor: pointer;
-	}
+    .chelseaLogo {
+        border-style: none;
+        height: 100px;
+        position: absolute;
+        height: 110px;
+        top: 25%;
+        left: 1%;
+        background: border-box;
+        border: 1px solid rgb(255, 255, 187);
+        cursor: pointer;
+    }
 
-	.languages {
-		position: absolute;
-		top: 65%;
-		/* color: rgb(255, 255, 142); */
-	}
+    .languages {
+        position: absolute;
+        top: 65%;
+        /* color: rgb(255, 255, 142); */
+    }
 }
 
 @media only screen and (min-width: 425px) {
-	.middle {
-		font-size: 10px;
-	}
+    .middle {
+        font-size: 10px;
+    }
 
-	.Contact {
-		margin-left: 110px;
-	}
+    .Contact {
+        margin-left: 110px;
+    }
 
-	.email {
-		margin-left: 110px;
-	}
+    .email {
+        margin-left: 110px;
+    }
 
-	.linkedin-page {
-		margin-left: 110px;
-	}
+    .linkedin-page {
+        margin-left: 110px;
+    }
 
-	.github-page {
-		margin-left: 110px;
-	}
+    .github-page {
+        margin-left: 110px;
+    }
 
-	.Cfc-disc {
-		font-size: 1.4em;
-		font-family: 'Ubuntu', Sans-Serif;
-		top: 41%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		line-height: 35px;
-		/* color: rgb(248, 248, 179); */
-	}
+    .Cfc-disc {
+        font-size: 1.4em;
+        font-family: 'Ubuntu', Sans-Serif;
+        top: 41%;
+        text-indent: 3%;
+        left: 0%;
+        background: border-box;
+        line-height: 35px;
+        /* color: rgb(248, 248, 179); */
+    }
 
-	.paragraph {
-		font-size: 1.2em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 38px;
-	}
+    .paragraph {
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 38px;
+    }
 
-	.paragraphTwo {
-		font-size: 1.2em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 38px;
-	}
+    .paragraphTwo {
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 38px;
+    }
 
-	.bioPage {
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		padding-top: 200px;
-		padding-bottom: 400px;
-		font-size: 1.3em;
-	}
+    .bioPage {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        padding-bottom: 400px;
+        font-size: 1.3em;
+    }
 
-	.chelseaLogo {
-		top: 26%;
-		cursor: pointer;
-	}
+    .chelseaLogo {
+        top: 26%;
+        cursor: pointer;
+    }
 
-	.languages {
-		font-size: 25px;
-		margin-top: 100px;
-		color: rgb(255, 255, 142);
-	}
+    .languages {
+        font-size: 25px;
+        margin-top: 100px;
+        color: rgb(255, 255, 142);
+    }
 }
 
 @media only screen and (min-width: 768px) {
-	.Contact {
-		margin-left: 250px;
-	}
+    .Contact {
+        margin-left: 250px;
+    }
 
-	.email {
-		margin-left: 250px;
-	}
+    .email {
+        margin-left: 250px;
+    }
 
-	.linkedin-page {
-		margin-left: 250px;
-	}
+    .linkedin-page {
+        margin-left: 250px;
+    }
 
-	.github-page {
-		margin-left: 250px;
-	}
+    .github-page {
+        margin-left: 250px;
+    }
 
-	#toggle:checked + .menu {
-		margin-bottom: 0px;
-		justify-content: space-evenly;
-		display: inline-flex;
-		font-size: 20px;
-		background-color: black;
-		margin-top: 7px;
-	}
+    #toggle:checked+.menu {
+        margin-bottom: 0px;
+        justify-content: space-evenly;
+        display: inline-flex;
+        font-size: 20px;
+        background-color: black;
+        margin-top: 7px;
+    }
 
-	.menu {
-		height: 0px;
-	}
+    .menu {
+        height: 0px;
+    }
 
-	.nav {
-		line-height: 35px;
-	}
+    .nav {
+        line-height: 35px;
+    }
 
-	.label {
-		display: flex;
-		position: absolute;
-		margin-left: 730px;
-		line-height: 45px;
-	}
+    .label {
+        display: flex;
+        position: absolute;
+        margin-left: 730px;
+        line-height: 45px;
+    }
 
-	.bioPage {
-		width: 100%;
-		height: 100vh;
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		padding-top: 200px;
-		font-size: 1.3em;
-	}
+    .bioPage {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        font-size: 1.3em;
+    }
 
-	.middle {
-		color: black;
-		font-size: 1.0em;
-	}
+    .middle {
+        color: black;
+        font-size: 1.0em;
+    }
 
-	.languages {
-		height: 50px;
-		margin-left: 45px;
-		margin-top: 150px;
-		font-weight: bold;
-		font-size: 1.7em;
-		color: rgb(255, 255, 142);
-	}
+    .languages {
+        height: 50px;
+        margin-left: 45px;
+        margin-top: 150px;
+        font-weight: bold;
+        font-size: 1.7em;
+        color: rgb(255, 255, 142);
+    }
 
-	.paragraph {
-		font-size: 1.4em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
+    .paragraph {
+        font-size: 1.4em;
+        color: rgb(255, 255, 255);
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
+    }
 
-	.paragraphTwo {
-		font-size: 1.4em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
+    .paragraphTwo {
+        font-size: 1.4em;
+        color: rgb(255, 255, 255);
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
+    }
 
-	.Cfc-disc {
-		line-height: 50px;
-		font-family: 'Ubuntu', sans-serif;
-		margin-top: 100px;
-		margin-left: 80px;
-		top: 45%;
-		width: 78%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		/* color: rgb(248, 248, 179); */
-		font-size: 1.5em;
-		text-align: center;
-	}
+    .Cfc-disc {
+        line-height: 50px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 100px;
+        margin-left: 80px;
+        top: 45%;
+        width: 78%;
+        text-indent: 3%;
+        left: 0%;
+        background: border-box;
+        /* color: rgb(248, 248, 179); */
+        font-size: 1.5em;
+        text-align: center;
+    }
 
-	.chelseaLogo {
-		top: 30%;
-		height: auto;
-		cursor: pointer;
-		margin-left: 130px;
-		width: 480px;
-	}
+    .chelseaLogo {
+        top: 30%;
+        height: auto;
+        cursor: pointer;
+        margin-left: 130px;
+        width: 480px;
+    }
 
-	.chelseaFc {
-		top: 19%;
-		font-size: 1.7em;
-		margin-left: 25px;
-	}
+    .chelseaFc {
+        top: 19%;
+        font-size: 1.7em;
+        margin-left: 25px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-	.bioPage {
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		min-height: 100vh;
-		font-size: 1.3em;
-	}
+    .bioPage {
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+        font-size: 1.3em;
+    }
 
-	.paragraph {
-		font-size: 1.5em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
+    .paragraph {
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
+    }
 
-	.paragraphTwo {
-		font-size: 1.5em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
+    .paragraphTwo {
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+        Font-Family: 'Ubuntu', Sans-Serif;
+        line-height: 40px;
+    }
 
-	.middle {
-		font-size: 1.3em;
-		width: 65%;
-		padding-left: 250px;
-		/* margin-left: 400px; */
-		font-size: 1.3em;
-	}
+    .middle {
+        font-size: 1.3em;
+        width: 65%;
+        padding-left: 250px;
+        /* margin-left: 400px; */
+        font-size: 1.3em;
+    }
 
-	.chelseaFc {
-		font-family: 'Ubuntu', sans-serif;
-		margin-left: 30px;
-		/* color: rgb(248, 248, 179); */
-		font-size: 2.5em;
-	}
+    .chelseaFc {
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 30px;
+        /* color: rgb(248, 248, 179); */
+        font-size: 2.5em;
+    }
 
-	.Cfc-disc {
-		/* color: rgb(248, 248, 179); */
-		top: 54%;
-		font-family: 'Ubuntu', sans-serif;
-		line-height: 50px;
-		margin-top: 30px;
-		margin-left: 100px;
-		text-align: center;
-		font-size: 1.5em;
-	}
+    .Cfc-disc {
+        /* color: rgb(248, 248, 179); */
+        top: 54%;
+        font-family: 'Ubuntu', sans-serif;
+        line-height: 50px;
+        margin-top: 30px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 1.5em;
+    }
 
-	.languages {
-		font-size: 2.0em;
-		color: rgb(255, 255, 142);
-		margin-top: 220px;
-	}
+    .languages {
+        font-size: 2.0em;
+        color: rgb(255, 255, 142);
+        margin-top: 220px;
+    }
 
-	.chelseaLogo {
-		top: 26%;
-		width: 500px;
-		height: auto;
-		margin-left: 248px;
-		margin-top: 10px;
-		cursor: pointer;
-	}
+    .chelseaLogo {
+        top: 26%;
+        width: 500px;
+        height: auto;
+        margin-left: 248px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
 
-	#Github {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
+    #Github {
+        color: white;
+        font-weight: bold;
+        font-size: 23px;
+    }
 
-	#Linkedin {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
+    #Linkedin {
+        color: white;
+        font-weight: bold;
+        font-size: 23px;
+    }
 
-	label {
-		display: none;
-	}
+    label {
+        display: none;
+    }
 
-	#toggle:checked + .menu {
-		display: none;
-	}
+    #toggle:checked+.menu {
+        display: none;
+    }
 
-	.name {
-		padding-right: 335px;
-	}
+    .name {
+        padding-right: 335px;
+    }
 
-	.menu {
-		display: inline-flex;
-		justify-content: flex-end;
-	}
+    .menu {
+        display: inline-flex;
+        justify-content: flex-end;
+    }
 
-	.menu a {
-		font-size: 25px;
-		display: block;
+    .menu a {
+        font-size: 25px;
+        display: block;
 
-		text-decoration: none;
-		margin: 0px;
-		margin-right: 19px;
-		/*top to bottom*/
+        text-decoration: none;
+        margin: 0px;
+        margin-right: 19px;
+        /*top to bottom*/
 
-		/*from left to right*/
-		line-height: 60px;
-		color: white;
-	}
+        /*from left to right*/
+        line-height: 60px;
+        color: white;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
-	.middle {
-		width: 50%;
-		padding-bottom: 170px;
-		margin-left: 390px;
-	}
+    .middle {
+        width: 50%;
+        padding-bottom: 170px;
+        margin-left: 390px;
+    }
 
-	.Contact {
-		background-color: white;
-		border-radius: 20px;
-		color: black;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-	}
+    .Contact {
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+    }
 
-	.email {
-		background-color: black;
-		border-radius: 20px;
-		color: white;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-	}
+    .email {
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+    }
 
-	.linkedin-page {
-		background-color: black;
-		border-radius: 20px;
-		color: white;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-		cursor: pointer;
-	}
+    .linkedin-page {
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
-	.linkedin-page:hover {
-		background-color: white;
-		color: black;
-	}
+    .linkedin-page:hover {
+        background-color: white;
+        color: black;
+    }
 
-	.github-page {
-		background-color: black;
-		border-radius: 20px;
-		color: white;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-		cursor: pointer;
-	}
+    .github-page {
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        padding: 20px;
+        margin-right: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
-	.projects {
-		background-image: url("john-towner-JgOeRuGD_Y4-unsplash.jpg");
-		width: 100%;
-		height: 100vh;
-		margin: 0;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
 
-	.bioPage {
-		background-size: cover;
-		min-height: 100vh;
-	}
+    .bioPage {
+        background-size: cover;
+        min-height: 100vh;
+    }
 
-	#Github {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
+    #Github {
+        color: white;
+        font-weight: bold;
+        font-size: 23px;
+    }
 
-	#Linkedin {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
+    #Linkedin {
+        color: white;
+        font-weight: bold;
+        font-size: 23px;
+    }
 
-	.Cfc-disc {
-		font-family: 'Ubuntu', sans-serif;
-		word-spacing: 5px;
-		text-align: center;
-		line-height: 60px;
-		margin: 220px;
-		margin-left: 150px;
-		margin-top: 60px;
-		text-indent: 0%;
-		font-size: 1.85em;
-		/* color: rgb(255, 255, 142); */
-	}
+    .Cfc-disc {
+        font-family: 'Ubuntu', sans-serif;
+        word-spacing: 5px;
+        text-align: center;
+        line-height: 60px;
+        margin: 220px;
+        margin-left: 150px;
+        margin-top: 60px;
+        text-indent: 0%;
+        font-size: 1.85em;
+        /* color: rgb(255, 255, 142); */
+    }
 
-	.chelseaFc {
-		/* color: rgb(255, 255, 142); */
-		font-family: 'Ubuntu', sans-serif;
-		font-size: 2.3em;
-		text-decoration: underline;
-		top: 10%;
-		margin-right: 0px;
-	}
+    .chelseaFc {
+        /* color: rgb(255, 255, 142); */
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2.3em;
+        text-decoration: underline;
+        top: 10%;
+        margin-right: 0px;
+    }
 
-	.chelseaLogo {
-		width: 510px;
-		top: 17%;
-		height: auto;
-		cursor: pointer;
-		margin-top: 1px;
-		margin-left: 500px;
-	}
+    .chelseaLogo {
+        width: 510px;
+        top: 17%;
+        height: auto;
+        cursor: pointer;
+        margin-top: 1px;
+        margin-left: 500px;
+    }
 
-	.homePage {
-		background-size: cover;
-		min-height: 100vh;
-	}
+    .homePage {
+        background-size: cover;
+        min-height: 100vh;
+    }
 
-	.Contact:hover {
-		background-color: black;
-		color: white;
-	}
+    .Contact:hover {
+        background-color: black;
+        color: white;
+    }
 
-	.email:hover {
-		background-color: white;
-		color: black;
-	}
+    .email:hover {
+        background-color: white;
+        color: black;
+    }
 
-	.github-page:hover {
-		background-color: white;
-		color: black;
-	}
+    .github-page:hover {
+        background-color: white;
+        color: black;
+    }
 
-	.languages {
-		Font-Family: 'Open Sans', Sans-Serif;
-		top: 90%;
-		font-size: 2.0em;
-		/* color: rgb(255, 255, 142); */
-	}
+    .languages {
+        Font-Family: 'Open Sans', Sans-Serif;
+        top: 90%;
+        font-size: 2.0em;
+        /* color: rgb(255, 255, 142); */
+    }
 
-	label {
-		display: none;
-	}
+    label {
+        display: none;
+    }
 
-	#toggle:checked + .menu {
-		display: none;
-	}
+    #toggle:checked+.menu {
+        display: none;
+    }
 
-	.name {
-		padding-right: 680px;
-	}
+    .name {
+        padding-right: 680px;
+    }
 
-	.menu {
-		margin-top: 10px;
-		display: inline-flex;
-		justify-content: space-evenly;
-	}
+    .menu {
+        margin-top: 10px;
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
 
-	.menu a {
-		font-size: 25px;
-		display: block;
+    .menu a {
+        font-size: 25px;
+        display: block;
 
-		text-decoration: none;
-		margin: 0px;
-		margin-right: 6px;
-		/*top to bottom*/
+        text-decoration: none;
+        margin: 0px;
+        margin-right: 6px;
+        /*top to bottom*/
 
-		/*from left to right*/
-		line-height: 60px;
-		color: white;
-	}
+        /*from left to right*/
+        line-height: 60px;
+        color: white;
+    }
 
-	.paragraph {
-		text-indent: 8%;
-		word-spacing: 8px;
-		Font-Family: 'Ubuntu', Sans-Serif;
-		margin: 70px;
-		line-height: 45px;
-		color: rgb(255, 255, 255);
-	}
+    .paragraph {
+        text-indent: 8%;
+        word-spacing: 8px;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        margin: 70px;
+        line-height: 45px;
+        color: rgb(255, 255, 255);
+    }
 
-	.paragraphTwo {
-		text-indent: 8%;
-		word-spacing: 8px;
-		Font-Family: 'Ubuntu', Sans-Serif;
-		margin: 70px;
-		line-height: 45px;
-		font-weight: bold;
-		color: rgb(255, 255, 255);
-	}
+    .paragraphTwo {
+        text-indent: 8%;
+        word-spacing: 8px;
+        Font-Family: 'Ubuntu', Sans-Serif;
+        margin: 70px;
+        line-height: 45px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
 }
