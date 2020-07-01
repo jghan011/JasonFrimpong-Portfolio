@@ -294,7 +294,9 @@ li.contact {
 .projects {
     display: none;
     position: relative;
-    background-image: url("tolga-ahmetler-9_PBJVYDPIU-unsplash.jpg");
+    /* background-image: url("tolga-ahmetler-9_PBJVYDPIU-unsplash.jpg"); */
+
+    background-color: black;
     width: 100%;
     height: 150vh;
     margin: 0;
@@ -800,6 +802,15 @@ li.contact {
 
     .chelseaLogo {
         width: 510px;
+        top: 17%;
+        height: auto;
+        cursor: pointer;
+        margin-top: 1px;
+        margin-left: 500px;
+    }
+
+    .expenseApp {
+        width: 100px;
         top: 17%;
         height: auto;
         cursor: pointer;
