@@ -2,10 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	background-color: black;
 	background-size: cover;
 }
+
 main {
 	/* background-size: cover; */
 }
@@ -45,16 +47,12 @@ main {
 	color: #fff;
 	font-weight: bold;
 	font-size: 24px;
-	margin-left: 30px;
 }
 
 .navbar-dark .navbar-toggler {
 	color: rgba(255, 255, 255, .5);
 	border-color: rgba(255, 255, 255, .1);
 	border-color: white;
-	margin-left: 25px;
-	margin-bottom: 20px;
-	margin-top: 10px;
 }
 
 .color {
@@ -257,6 +255,7 @@ li.contact {
 .homepageWelcome {
 	font-weight: bold;
 }
+
 /* broad city image */
 .Broad {
 	width: 100px;
@@ -265,6 +264,7 @@ li.contact {
 	cursor: pointer;
 	margin-top: 1px;
 }
+
 .bioPage {
 	display: none;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -384,10 +384,12 @@ li.contact {
 		text-align: center;
 		font-family: arial;
 	}
+
 	.expenseFont {
 		color: white;
 		text-align: center;
 	}
+
 	.Contact {
 		width: 30%;
 	}
