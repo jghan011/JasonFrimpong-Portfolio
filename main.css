@@ -335,15 +335,33 @@ li.contact {
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 }
+.card-body {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	text-align: center;
+	font-family: arial;
+	justify-content: space-between;
+}
+@media (max-width: 375px) {
+	.card-body {
+		flex-direction: column;
+	}
+}
 
-.chelseaLogo {
-	border-style: none;
-	width: 85%;
-	height: auto;
-	margin-left: 20px;
+.card-body__text {
+	color: white;
+	text-align: center;
+	max-width: 50%;
+}
+
+.card-body__images {
 	background: border-box;
+	border-style: none;
 	border: 1px solid rgb(255, 255, 187);
 	cursor: pointer;
+	height: auto;
+	width: 25vw;
 }
 
 .Cfc-disc {
@@ -374,20 +392,6 @@ li.contact {
 		width: 100%;
 		height: 100vh;
 		margin: 0;
-	}
-
-	.card-body {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		max-width: 600px;
-		text-align: center;
-		font-family: arial;
-	}
-
-	.expenseFont {
-		color: white;
-		text-align: center;
 	}
 
 	.Contact {
@@ -439,18 +443,6 @@ li.contact {
 		top: 19%;
 		left: 1%;
 		/* color: rgb(248, 248, 179); */
-	}
-
-	.chelseaLogo {
-		border-style: none;
-		height: 100px;
-		position: absolute;
-		height: 110px;
-		top: 25%;
-		left: 1%;
-		background: border-box;
-		border: 1px solid rgb(255, 255, 187);
-		cursor: pointer;
 	}
 
 	.languages {
@@ -515,11 +507,6 @@ li.contact {
 		padding-top: 200px;
 		padding-bottom: 400px;
 		font-size: 1.3em;
-	}
-
-	.chelseaLogo {
-		top: 26%;
-		cursor: pointer;
 	}
 
 	.languages {
@@ -623,14 +610,6 @@ li.contact {
 		text-align: center;
 	}
 
-	.chelseaLogo {
-		top: 30%;
-		height: auto;
-		cursor: pointer;
-		margin-left: 130px;
-		width: 480px;
-	}
-
 	.chelseaFc {
 		top: 19%;
 		font-size: 1.7em;
@@ -691,15 +670,6 @@ li.contact {
 		font-size: 2.0em;
 		color: rgb(255, 255, 142);
 		margin-top: 220px;
-	}
-
-	.chelseaLogo {
-		top: 26%;
-		width: 500px;
-		height: auto;
-		margin-left: 248px;
-		margin-top: 10px;
-		cursor: pointer;
 	}
 
 	#Github {
@@ -833,15 +803,6 @@ li.contact {
 		text-decoration: underline;
 		top: 10%;
 		margin-right: 0px;
-	}
-
-	.chelseaLogo {
-		width: 510px;
-		top: 17%;
-		height: auto;
-		cursor: pointer;
-		margin-top: 1px;
-		margin-left: 500px;
 	}
 
 	.expenseApp {
