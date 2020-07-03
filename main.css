@@ -343,6 +343,9 @@ li.contact {
 	font-family: arial;
 	justify-content: space-between;
 }
+.card-body img {
+	align-self: stretch;
+}
 @media (max-width: 375px) {
 	.card-body {
 		flex-direction: column;
@@ -352,7 +355,12 @@ li.contact {
 .card-body__text {
 	color: white;
 	text-align: center;
-	max-width: 50%;
+	max-width: 55%;
+}
+@media (max-width: 375px) {
+	.card-body__text {
+		max-width: 95%;
+	}
 }
 
 .card-body__images {
