@@ -289,6 +289,40 @@ li.contact {
 	text-indent: 5%;
 	line-height: 28px;
 }
+@media (max-width: 375px) {
+	.paragraph {
+		color: rgb(255, 255, 255);
+		line-height: 38px;
+		font-size: 1.09em;
+		Font-Family: 'Ubuntu', Sans-Serif;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.paragraph {
+		font-size: 1.2em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.paragraph {
+		font-size: 1.4em;
+		line-height: 40px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.paragraph {
+		font-size: 1.5em;
+		line-height: 40px;
+	}
+}
+@media only screen and (max-width: 1440px) {
+	.paragraph {
+		text-indent: 8%;
+		word-spacing: 8px;
+		margin: 70px;
+		line-height: 45px;
+		font-size: 1.4em;
+	}
+}
 
 .paragraphTwo {
 	color: rgb(255, 255, 255);
@@ -297,6 +331,40 @@ li.contact {
 	margin: 36px;
 	text-indent: 5%;
 	line-height: 27px;
+}
+@media only screen and (max-width: 375px) {
+	.paragraphTwo {
+		color: rgb(255, 255, 255);
+		line-height: 38px;
+		font-size: 1.09em;
+		Font-Family: 'Ubuntu', Sans-Serif;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.paragraphTwo {
+		font-size: 1.2em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.paragraphTwo {
+		font-size: 1.4em;
+		line-height: 40px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.paragraphTwo {
+		font-size: 1.5em;
+		line-height: 40px;
+	}
+}
+@media only screen and (max-width: 1440px) {
+	.paragraphTwo {
+		text-indent: 8%;
+		word-spacing: 8px;
+		margin: 70px;
+		line-height: 45px;
+		font-size: 1.4em;
+	}
 }
 
 /* projects info */
@@ -385,18 +453,6 @@ li.contact {
 	width: 25vw;
 }
 
-.Cfc-disc {
-	font-family: 'Ubuntu', sans-serif;
-	width: 95%;
-	height: auto;
-	margin-left: 5%;
-	text-indent: 5%;
-	background: border-box;
-	font-size: 1.23em;
-	font-weight: bold;
-	line-height: 27px;
-}
-
 .languages {
 	Font-Family: 'Open Sans', Sans-Serif;
 	color: rgb(255, 255, 142);
@@ -437,28 +493,6 @@ li.contact {
 		min-height: 100vh;
 	}
 
-	.paragraph {
-		color: rgb(255, 255, 255);
-		font-size: 1.09em;
-		font-family: 'Times New Roman', Times, serif;
-	}
-
-	.paragraphTwo {
-		color: rgb(255, 255, 255);
-		font-size: 1.0em;
-		font-family: 'Times New Roman', Times, serif;
-	}
-
-	.Cfc-disc {
-		position: absolute;
-		top: 39%;
-		width: 88%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		/* color: rgb(248, 248, 179); */
-	}
-
 	.chelseaFc {
 		position: absolute;
 		top: 19%;
@@ -492,31 +526,6 @@ li.contact {
 
 	.github-page {
 		margin-left: 110px;
-	}
-
-	.Cfc-disc {
-		font-size: 1.4em;
-		font-family: 'Ubuntu', Sans-Serif;
-		top: 41%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		line-height: 35px;
-		/* color: rgb(248, 248, 179); */
-	}
-
-	.paragraph {
-		font-size: 1.2em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 38px;
-	}
-
-	.paragraphTwo {
-		font-size: 1.2em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 38px;
 	}
 
 	.bioPage {
@@ -602,35 +611,6 @@ li.contact {
 		color: rgb(255, 255, 142);
 	}
 
-	.paragraph {
-		font-size: 1.4em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
-	.paragraphTwo {
-		font-size: 1.4em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
-	.Cfc-disc {
-		line-height: 50px;
-		font-family: 'Ubuntu', sans-serif;
-		margin-top: 100px;
-		margin-left: 80px;
-		top: 45%;
-		width: 78%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		/* color: rgb(248, 248, 179); */
-		font-size: 1.5em;
-		text-align: center;
-	}
-
 	.chelseaFc {
 		top: 19%;
 		font-size: 1.7em;
@@ -647,20 +627,6 @@ li.contact {
 		font-size: 1.3em;
 	}
 
-	.paragraph {
-		font-size: 1.5em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
-	.paragraphTwo {
-		font-size: 1.5em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
 	.middle {
 		font-size: 1.3em;
 		width: 65%;
@@ -674,17 +640,6 @@ li.contact {
 		margin-left: 30px;
 		/* color: rgb(248, 248, 179); */
 		font-size: 2.5em;
-	}
-
-	.Cfc-disc {
-		/* color: rgb(248, 248, 179); */
-
-		font-family: 'Ubuntu', sans-serif;
-		line-height: 50px;
-		margin-top: 30px;
-		margin-left: 100px;
-		text-align: center;
-		font-size: 1.5em;
 	}
 
 	.languages {
@@ -804,19 +759,6 @@ li.contact {
 		font-size: 23px;
 	}
 
-	.Cfc-disc {
-		font-family: 'Ubuntu', sans-serif;
-		word-spacing: 5px;
-		text-align: center;
-		line-height: 60px;
-		margin: 220px;
-		margin-left: 150px;
-		margin-top: 60px;
-		text-indent: 0%;
-		font-size: 1.85em;
-		/* color: rgb(255, 255, 142); */
-	}
-
 	.chelseaFc {
 		/* color: rgb(255, 255, 142); */
 		font-family: 'Ubuntu', sans-serif;
@@ -897,19 +839,14 @@ li.contact {
 	.paragraph {
 		text-indent: 8%;
 		word-spacing: 8px;
-		Font-Family: 'Ubuntu', Sans-Serif;
 		margin: 70px;
 		line-height: 45px;
-		color: rgb(255, 255, 255);
 	}
 
 	.paragraphTwo {
 		text-indent: 8%;
 		word-spacing: 8px;
-		Font-Family: 'Ubuntu', Sans-Serif;
 		margin: 70px;
 		line-height: 45px;
-		font-weight: bold;
-		color: rgb(255, 255, 255);
 	}
 }
