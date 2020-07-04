@@ -363,6 +363,12 @@ li.contact {
 	}
 }
 
+@media (max-width: 375px) {
+	.card-body__text h4 {
+		margin-top: 15px;
+	}
+}
+
 .card-body__images {
 	background: border-box;
 	border-style: none;
