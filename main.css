@@ -55,6 +55,35 @@ main {
 	border-color: white;
 }
 
+.iconImagesPortfolio {
+	/* margin-left: 10px; */
+	font-size: 30px;
+	margin-left: 15px;
+}
+@media only screen and (min-width: 1440px) {
+	.iconImagesPortfolio {
+		font-size: 45px;
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+}
+
+.portfolioParagraph {
+}
+@media only screen and (min-width: 1440px) {
+	.portfolioParagraph {
+		font-size: 23px;
+		font-family: sans-serif;
+		line-height: 45px;
+		word-spacing: 4.5px;
+		font-weight: .5px;
+	}
+}
+
+.portfolioHeaders {
+	text-decoration: underline;
+	line-height: 2.0;
+}
 .color {
 	color: black;
 	background-color: black;
