@@ -58,17 +58,30 @@ main {
 .iconImagesPortfolio {
 	/* margin-left: 10px; */
 	font-size: 30px;
-	margin-left: 15px;
+	margin-left: 10px;
 }
 @media only screen and (min-width: 1440px) {
 	.iconImagesPortfolio {
 		font-size: 45px;
 		margin-left: 20px;
-		margin-top: 10px;
+		margin-top: 16px;
 	}
 }
 
 .portfolioParagraph {
+}
+@media only screen and (max-width: 375px) {
+	.portfolioParagraph {
+		font-size: 17px;
+		line-height: 1.6;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.portfolioParagraph {
+		font-size: 17.2px;
+		line-height: 1.8;
+		word-spacing: 2px;
+	}
 }
 @media only screen and (min-width: 1440px) {
 	.portfolioParagraph {
@@ -480,6 +493,11 @@ li.contact {
 	cursor: pointer;
 	height: auto;
 	width: 25vw;
+}
+@media (max-width: 768px) {
+	.card-body__images {
+		width: 29vw;
+	}
 }
 
 .languages {
