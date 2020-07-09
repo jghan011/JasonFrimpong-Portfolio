@@ -1,6 +1,7 @@
 body {
-    background-color: black;
-    background-size: cover;
+
+
+
     /* Font-Family: 'Ubuntu', Sans-Serif; */
     /* Font-Family: 'Open Sans', Sans-Serif; */
 }
@@ -11,6 +12,7 @@ body {
 /* navbar contents */
 .navbar-dark .navbar-nav .nav-link {
     transition: color .25s ease;
+    font-weight: bold;
 }
 
 .navbar-dark .navbar-brand {
@@ -22,33 +24,31 @@ body {
 .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, .5);
     border-color: rgba(255, 255, 255, .1);
-    /* border-color: white; */
 }
 
 .iconImagesPortfolio {
-    /* margin-left: 10px; */
     font-size: 30px;
     margin-left: 10px;
 }
 
+/* One line your margin property????? */
 @media only screen and (min-width: 1440px) {
     .iconImagesPortfolio {
         font-size: 45px;
-        margin-left: 20px;
-        margin-top: 16px;
+        margin: 16px 0px 0px 20px;
     }
 }
 
 
 @media only screen and (max-width: 375px) {
-    .portfolioParagraph {
+    .black-background-white-text {
         font-size: 17px;
         line-height: 1.6;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .portfolioParagraph {
+    .black-background-white-text {
         font-size: 17.2px;
         line-height: 1.8;
         word-spacing: 2px;
@@ -56,7 +56,7 @@ body {
 }
 
 @media only screen and (min-width: 1440px) {
-    .portfolioParagraph {
+    .black-background-white-text {
         font-size: 23px;
         font-family: arial, sans-serif;
         line-height: 45px;
@@ -65,7 +65,7 @@ body {
     }
 }
 
-.portfolioHeaders {
+.portfolio-project-title {
     text-decoration: underline;
     line-height: 2.0;
 }
@@ -75,25 +75,13 @@ body {
     background-color: black;
 }
 
-.nav-link {
-    color: white;
-}
+
 
 .navbar-nav>li {
     padding: 0 30px;
 }
 
-#Linkedin {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#Github {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
+/* removed github blocks and linkedin */
 
 .ul-info {
     margin-right: 30px;
@@ -101,173 +89,56 @@ body {
 
 /* end of navbar content */
 
-/* profile card info */
-.container {
-    position: relative;
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.container .card {
-    position: relative;
-    height: 250px;
-    background: #fff;
-    display: flex;
-    width: 250px;
-    margin: 250px;
-    margin-left: auto;
-    margin-right: 20px;
-}
-
-.container .card .imgBx {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #333;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: 0.5x ease-in-out;
-}
-
-/* end of profile card */
 
 button span {
     color: white;
 }
 
-#toggle {
+/*removed  #toggle {
     display: none;
-}
+} */
 
-.name {
-    cursor: auto;
-}
 
-label {
-    margin: 0 25px 0 0;
-    font-size: 26px;
-    line-height: 10px;
-    cursor: pointer;
-    color: white;
-    background-color: black;
-}
+
+
 
 /* end of navigation section */
 
-.middle {
-    Font-Family: 'Ubuntu', Sans-Serif;
-    Font-Size: 8px;
-    padding-top: 275px;
-    padding-left: 60px;
-    top: 40%;
-    right: 14%;
-    color: wheat;
-    text-align: center;
-    width: 79%;
-}
 
-.Contact {
-    background-color: white;
-    border-radius: 20px;
-    color: black;
-    padding: 5px;
-    margin-right: 20px;
-    font-weight: bold;
-    margin-left: 70px;
-}
 
-.email {
-    background-color: black;
-    border-radius: 20px;
-    color: white;
-    padding: 5px;
-    margin-right: 20px;
-    font-weight: bold;
 
-    margin-left: 70px;
-}
 
-.linkedin-page {
-    background-color: black;
-    border-radius: 20px;
-    color: white;
-    padding: 5px;
-    margin-right: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 70px;
-}
 
-.github-page {
-    background-color: black;
-    border-radius: 20px;
-    color: white;
-    padding: 5px;
-    margin-right: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-left: 70px;
-}
 
-.github-page:hover {
-    background-color: white;
-    color: black;
-}
 
-.email:hover {
-    margin-right: 20px;
-    font-weight: bold;
-}
 
-.line {
-    margin-left: 20px;
-    font-weight: bold;
-}
 
-li.contact {
-    float: left;
-    margin-left: 25px;
-    cursor: pointer;
-    font-weight: bold;
-}
 
-.home {
-    cursor: pointer;
-    font-weight: bold;
-}
 
-.bioLink {
-    display: inline-block;
-    cursor: pointer;
-    font-weight: bold;
-}
+
+
+
+
+
+
 
 .portfolio {
     cursor: pointer;
     font-weight: bold;
 }
 
-.homePage {
-    color: black;
-    background-color: black;
+/* main change to homepage was completely unsucessful */
+main {
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.356)),
         url("joana-abreu-sjunyfo6BF0-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    min-height: 100vh;
+    height: 100%;
 }
 
-.homepageWelcome {
-    font-weight: bold;
-}
+
 
 /* broad city image */
 .Broad {
@@ -293,18 +164,18 @@ li.contact {
     font-size: 1.4em;
 }
 
-.paragraph {
+.bio-paragraph {
     color: rgb(255, 255, 255);
     font-size: .9em;
     Font-Family: 'Ubuntu', Sans-Serif;
-    margin: 36px;
+    /* margin: 36px; */
     text-indent: 5%;
     line-height: 28px;
 }
 
 @media (max-width: 375px) {
-    .paragraph {
-        color: rgb(255, 255, 255);
+    .bio-paragraph {
+
         line-height: 38px;
         font-size: 1.09em;
         Font-Family: 'Ubuntu', Sans-Serif;
@@ -312,30 +183,30 @@ li.contact {
 }
 
 @media only screen and (max-width: 425px) {
-    .paragraph {
+    .bio-paragraph {
         font-size: 1.2em;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .paragraph {
+    .bio-paragraph {
         font-size: 1.4em;
-        line-height: 40px;
+        /* line-height: 40px; */
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    .paragraph {
+    .bio-paragraph {
         font-size: 1.5em;
         line-height: 40px;
     }
 }
 
 @media only screen and (max-width: 1440px) {
-    .paragraph {
+    .bio-paragraph {
         text-indent: 8%;
         word-spacing: 8px;
-        margin: 70px;
+        /* margin: 70px; */
         line-height: 45px;
         font-size: 1.4em;
     }
@@ -356,13 +227,12 @@ li.contact {
 .projects {
     display: none;
     position: relative;
-    /* background-image: url("tolga-ahmetler-9_PBJVYDPIU-unsplash.jpg"); */
 
     background-color: black;
     width: 100%;
     min-height: 100vh;
     /* margin: 0; */
-    background-size: cover;
+
     background-repeat: no-repeat;
     background-position: center;
     color: black;
@@ -374,13 +244,6 @@ li.contact {
 }
 
 
-.chelseaFc {
-    font-size: 1.6em;
-    margin-top: 0%;
-    left: 1%;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-}
 
 .card-body {
     display: flex;
@@ -391,6 +254,12 @@ li.contact {
     justify-content: space-between;
 }
 
+@media (max-width: 375px) {
+    .card-body {
+        flex-direction: column;
+    }
+}
+
 .card-body img {
     align-self: stretch;
 }
@@ -399,6 +268,22 @@ li.contact {
     .card-body img {
         height: 80px;
         width: 175px;
+    }
+}
+
+/*still being used  */
+.card-body__images {
+    background: border-box;
+    border-style: none;
+    border: 1px solid white;
+    cursor: pointer;
+    height: auto;
+    width: 25vw;
+}
+
+@media (max-width: 768px) {
+    .card-body__images {
+        width: 29vw;
     }
 }
 
@@ -426,20 +311,6 @@ li.contact {
     }
 }
 
-.card-body__images {
-    background: border-box;
-    border-style: none;
-    border: 1px solid white;
-    cursor: pointer;
-    height: auto;
-    width: 25vw;
-}
-
-@media (max-width: 768px) {
-    .card-body__images {
-        width: 29vw;
-    }
-}
 
 .languages {
     Font-Family: 'Open Sans', Sans-Serif;
@@ -453,11 +324,7 @@ li.contact {
 /* ene of projects section */
 
 @media only screen and (max-width: 375px) {
-    body {
-        width: 100%;
-        height: 100vh;
-        margin: 0;
-    }
+
 
     .bioPage {
         margin-top: 10px;
@@ -470,10 +337,7 @@ li.contact {
         font-weight: bold;
     }
 
-    .homePage {
-        background-size: cover;
-        min-height: 100vh;
-    }
+
 
 
 }
