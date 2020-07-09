@@ -1,13 +1,13 @@
 body {
-
-
-
-    /* Font-Family: 'Ubuntu', Sans-Serif; */
-    /* Font-Family: 'Open Sans', Sans-Serif; */
+    background-color: black;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.356)),
+        url("joana-abreu-sjunyfo6BF0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
 }
-
-
-
 
 /* navbar contents */
 .navbar-dark .navbar-nav .nav-link {
@@ -94,33 +94,7 @@ button span {
     color: white;
 }
 
-/*removed  #toggle {
-    display: none;
-} */
-
-
-
-
-
 /* end of navigation section */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .portfolio {
     cursor: pointer;
@@ -129,24 +103,11 @@ button span {
 
 /* main change to homepage was completely unsucessful */
 main {
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.356)),
-        url("joana-abreu-sjunyfo6BF0-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
     height: 100%;
 }
 
-
-
-/* broad city image */
-.Broad {
-    width: 100px;
-    top: 17%;
-    height: 150px;
-    cursor: pointer;
-    margin-top: 1px;
+section {
+    height: calc(100% - 70px);
 }
 
 .bioPage {
@@ -155,12 +116,10 @@ main {
         url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     margin-top: 10px;
     width: 100%;
-    height: 100%;
     margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 400px;
     font-size: 1.4em;
 }
 
@@ -175,7 +134,6 @@ main {
 
 @media (max-width: 375px) {
     .bio-paragraph {
-
         line-height: 38px;
         font-size: 1.09em;
         Font-Family: 'Ubuntu', Sans-Serif;
@@ -212,38 +170,21 @@ main {
     }
 }
 
-.paragraphTwo {
-    color: rgb(255, 255, 255);
-    font-size: .9em;
-    Font-Family: 'Ubuntu', Sans-Serif;
-    margin: 36px;
-    text-indent: 5%;
-    line-height: 27px;
-}
-
-
-
 /* projects info */
 .projects {
     display: none;
     position: relative;
-
     background-color: black;
     width: 100%;
-    min-height: 100vh;
-    /* margin: 0; */
 
     background-repeat: no-repeat;
     background-position: center;
     color: black;
 
-    /* padding-top: 620px; */
     background-size: cover;
 
     cursor: pointer;
 }
-
-
 
 .card-body {
     display: flex;
@@ -332,24 +273,18 @@ main {
         margin: 0;
         background-repeat: no-repeat;
         background-position: center;
-        padding-bottom: 400px;
         font-size: 1.3em;
         font-weight: bold;
     }
-
-
-
 
 }
 
 @media only screen and (min-width: 425px) {
     .bioPage {
         width: 100%;
-        height: 100%;
         margin: 0;
         background-repeat: no-repeat;
         background-position: center;
-        padding-bottom: 400px;
         font-size: 1.3em;
     }
 
@@ -359,7 +294,6 @@ main {
 
     .bioPage {
         width: 100%;
-        height: 100vh;
         margin: 0;
         background-repeat: no-repeat;
         background-position: center;
@@ -373,7 +307,6 @@ main {
         margin: 0;
         background-repeat: no-repeat;
         background-position: center;
-        min-height: 100vh;
         font-size: 1.3em;
     }
 
@@ -383,9 +316,7 @@ main {
 
     .bioPage {
         background-size: cover;
-        /* min-height: 100vh; */
     }
-
 
     .paragraph {
         text-indent: 8%;
