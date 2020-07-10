@@ -155,8 +155,9 @@ section {
 
 @media only screen and (max-width: 1024px) {
     .bio-paragraph {
-        font-size: 1.5em;
+        /* font-size: 1.5em; */
         line-height: 40px;
+        padding: 20px;
     }
 }
 
@@ -167,6 +168,7 @@ section {
         /* margin: 70px; */
         line-height: 45px;
         font-size: 1.4em;
+        padding: 40px;
     }
 }
 
@@ -250,16 +252,6 @@ section {
     .card-body__text h4 {
         margin-top: 15px;
     }
-}
-
-
-.languages {
-    Font-Family: 'Open Sans', Sans-Serif;
-    color: rgb(255, 255, 142);
-    margin-left: 15px;
-    margin-top: 80px;
-    font-weight: bold;
-    font-size: 1.23em;
 }
 
 /* ene of projects section */
