@@ -1,871 +1,271 @@
 body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-}
-
-main {
-	/* background-size: cover; */
-}
-
-.menu {
-	display: none;
-	text-align: center;
-	width: 100%;
-}
-
-.menu a {
-	Font-Family: 'Ubuntu', Sans-Serif;
-	Font-Family: 'Open Sans', Sans-Serif;
-	display: block;
-	text-decoration: none;
-	margin: 0px;
-	margin-right: 10px;
-	/*top to bottom*/
-	/*from left to right*/
-	color: white;
-	line-height: 20px;
-}
-
-#toggle:checked + .menu {
-	justify-content: space-evenly;
-	display: inline-flex;
-	font-size: 11px;
-	background-color: black;
+    background-color: black;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.356)),
+        url("joana-abreu-sjunyfo6BF0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
 }
 
 /* navbar contents */
 .navbar-dark .navbar-nav .nav-link {
-	color: azure;
+    transition: color .25s ease;
+    font-weight: bold;
 }
 
 .navbar-dark .navbar-brand {
-	color: #fff;
-	font-weight: bold;
-	font-size: 24px;
-	margin-left: 30px;
-}
-.color {
-	color: black;
-	background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.nav-link {
-	color: white;
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .1);
 }
 
-.navbar-nav > li {
-	padding-left: 30px;
-	padding-right: 30px;
-	/* color: white; */
+.iconImagesPortfolio {
+    font-size: 30px;
+    margin-left: 10px;
 }
 
-#Linkedin {
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
+/* One line your margin property????? */
+@media only screen and (min-width: 1440px) {
+    .iconImagesPortfolio {
+        font-size: 45px;
+        margin: 16px 0px 0px 20px;
+    }
 }
 
-#Github {
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
+@media only screen and (min-width: 1440px) {
+    .black-background-white-text {
+        font-size: 23px;
+        line-height: 45px;
+        word-spacing: 4.5px;
+    }
 }
+
+.portfolio-project-title {
+    text-decoration: underline;
+    line-height: 2.0;
+}
+
+.black-color {
+    color: black;
+    background-color: black;
+}
+
+.navbar-nav>li {
+    padding: 0 30px;
+}
+
+/* removed github blocks and linkedin */
+
 .ul-info {
-	margin-right: 30px;
-}
-/* end of navbar content */
-
-/* profile card info */
-.container {
-	position: relative;
-	width: 1000px;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+    margin-right: 30px;
 }
 
-.container .card {
-	position: relative;
-	height: 250px;
-	background: #fff;
-	display: flex;
-	width: 250px;
-	margin: 250px;
-	margin-left: auto;
-	margin-right: 20px;
+/* main change to homepage was completely unsucessful */
+main {
+    height: 100%;
 }
 
-.container .card .imgBx {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #333;
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	transition: 0.5x ease-in-out;
-}
-
-/* end of profile card */
-
-button span {
-	color: white;
-}
-
-#toggle {
-	display: none;
-}
-
-.name {
-	cursor: auto;
-}
-
-label {
-	margin: 0 25px 0 0;
-	font-size: 26px;
-	line-height: 10px;
-	cursor: pointer;
-	color: white;
-	background-color: black;
-}
-
-/* end of navigation section */
-
-.middle {
-	Font-Family: 'Ubuntu', Sans-Serif;
-	Font-Size: 8px;
-	padding-top: 275px;
-	padding-left: 60px;
-	top: 40%;
-	right: 14%;
-	color: wheat;
-	text-align: center;
-	width: 79%;
-}
-
-.Contact {
-	background-color: white;
-	border-radius: 20px;
-	color: black;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
-	margin-left: 70px;
-}
-
-.email {
-	background-color: black;
-	border-radius: 20px;
-	color: white;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
-
-	margin-left: 70px;
-}
-
-.linkedin-page {
-	background-color: black;
-	border-radius: 20px;
-	color: white;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
-	cursor: pointer;
-	margin-left: 70px;
-}
-
-.github-page {
-	background-color: black;
-	border-radius: 20px;
-	color: white;
-	padding: 5px;
-	margin-right: 20px;
-	font-weight: bold;
-	cursor: pointer;
-	margin-left: 70px;
-}
-
-.github-page:hover {
-	background-color: white;
-	color: black;
-}
-
-.email:hover {
-	margin-right: 20px;
-	font-weight: bold;
-}
-
-.line {
-	margin-left: 20px;
-	font-weight: bold;
-}
-
-li.contact {
-	float: left;
-	margin-left: 25px;
-	cursor: pointer;
-	font-weight: bold;
-}
-
-.home {
-	cursor: pointer;
-	font-weight: bold;
-}
-
-.bioLink {
-	display: inline-block;
-	cursor: pointer;
-	font-weight: bold;
-}
-
-.portfolio {
-	cursor: pointer;
-	font-weight: bold;
-}
-
-.homePage {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.2)),
-		url("tevin-trinh-umv7ib2nqlA-unsplash.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom center;
-	min-height: 100vh;
+section {
+    height: calc(100% - 70px);
 }
 
 .bioPage {
-	display: none;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-		url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	margin-top: 10px;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	padding-top: 200px;
-	padding-bottom: 400px;
-	font-size: 1.4em;
+    display: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("https://images.pexels.com/photos/761/night-dark-moon-slice.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    margin-top: 10px;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.4em;
+    padding: 10%;
+
 }
 
-.paragraph {
-	color: rgb(255, 255, 255);
-	font-size: .9em;
-	Font-Family: 'Ubuntu', Sans-Serif;
-	margin: 36px;
-	text-indent: 5%;
-	line-height: 28px;
+.bio-paragraph {
+    color: rgb(255, 255, 255);
+    font-size: .9em;
+    Font-Family: 'Ubuntu', Sans-Serif;
+    /* margin: 36px; */
+    text-indent: 5%;
+    line-height: 28px;
+    padding: 40px;
 }
 
-.paragraphTwo {
-	color: rgb(255, 255, 255);
-	font-size: .9em;
-	Font-Family: 'Ubuntu', Sans-Serif;
-	margin: 36px;
-	text-indent: 5%;
-	line-height: 27px;
+@media (max-width: 375px) {
+    .bio-paragraph {
+        line-height: 38px;
+        font-size: 1.09em;
+        Font-Family: 'Ubuntu', Sans-Serif;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .bio-paragraph {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bio-paragraph {
+        font-size: 1.4em;
+        /* line-height: 40px; */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .bio-paragraph {
+        /* font-size: 1.5em; */
+        line-height: 40px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .bio-paragraph {
+        text-indent: 8%;
+        word-spacing: 8px;
+        /* margin: 70px; */
+        line-height: 45px;
+        font-size: 1.4em;
+    }
 }
 
 /* projects info */
 .projects {
-	display: none;
-	position: relative;
-	background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	color: white;
-
-	/* padding-top: 620px; */
-	background-size: cover;
-	min-height: 100vh;
-	background-position: bottom center;
-	cursor: pointer;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    cursor: pointer;
+    display: none;
+    position: relative;
+    width: 100%;
 }
 
-.chelseaFc {
-	font-size: 1.6em;
-	margin-top: 0%;
-	left: 1%;
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
+.card-body {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: arial;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.chelseaLogo {
-	border-style: none;
-	width: 85%;
-	height: auto;
-	margin-left: 20px;
-	background: border-box;
-	border: 1px solid rgb(255, 255, 187);
-	cursor: pointer;
+@media (max-width: 425px) {
+    .card-body {
+        flex-direction: column;
+    }
 }
 
-.Cfc-disc {
-	font-family: 'Ubuntu', sans-serif;
-	width: 95%;
-	height: auto;
-	margin-left: 5%;
-	text-indent: 5%;
-	background: border-box;
-	font-size: 1.23em;
-	font-weight: bold;
-	line-height: 27px;
+.card-body img {
+    align-self: stretch;
 }
 
-.languages {
-	Font-Family: 'Open Sans', Sans-Serif;
-	color: rgb(255, 255, 142);
-	margin-left: 15px;
-	margin-top: 80px;
-	font-weight: bold;
-	font-size: 1.23em;
+@media (max-width: 425px) {
+    .card-body img {
+        height: 80px;
+        width: 175px;
+    }
+}
+
+/*still being used  */
+.card-body__images {
+    background: border-box;
+    border-style: none;
+    border: 1px solid white;
+    cursor: pointer;
+    height: auto;
+    width: 25vw;
+}
+
+@media (max-width: 768px) {
+    .card-body__images {
+        width: 29vw;
+    }
+}
+
+.card-body__text {
+    color: white;
+    text-align: center;
+    max-width: 55%;
+}
+
+@media (max-width: 425px) {
+    .card-body__text {
+        max-width: 95%;
+    }
+
+    .card-body__text h4 {
+        margin-top: 15px;
+    }
 }
 
 /* ene of projects section */
 
-@media only screen and (min-width: 375px) {
-	.Contact {
-		width: 30%;
-	}
+@media only screen and (max-width: 375px) {
 
-	.bioPage {
-		margin-top: 10px;
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		padding-top: 200px;
-		padding-bottom: 400px;
-		font-size: 1.3em;
-		font-weight: bold;
-	}
-
-	.homePage {
-		background-size: cover;
-		min-height: 100vh;
-	}
-
-	.paragraph {
-		color: rgb(255, 255, 255);
-		font-size: 1.09em;
-		font-family: 'Times New Roman', Times, serif;
-	}
-
-	.paragraphTwo {
-		color: rgb(255, 255, 255);
-		font-size: 1.0em;
-		font-family: 'Times New Roman', Times, serif;
-	}
-
-	.Cfc-disc {
-		position: absolute;
-		top: 39%;
-		width: 88%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		/* color: rgb(248, 248, 179); */
-	}
-
-	.chelseaFc {
-		position: absolute;
-		top: 19%;
-		left: 1%;
-		/* color: rgb(248, 248, 179); */
-	}
-
-	.chelseaLogo {
-		border-style: none;
-		height: 100px;
-		position: absolute;
-		height: 110px;
-		top: 25%;
-		left: 1%;
-		background: border-box;
-		border: 1px solid rgb(255, 255, 187);
-		cursor: pointer;
-	}
-
-	.languages {
-		position: absolute;
-		top: 65%;
-		/* color: rgb(255, 255, 142); */
-	}
+    .bioPage {
+        margin-top: 10px;
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
 }
 
 @media only screen and (min-width: 425px) {
-	.middle {
-		font-size: 10px;
-	}
-
-	.Contact {
-		margin-left: 110px;
-	}
-
-	.email {
-		margin-left: 110px;
-	}
-
-	.linkedin-page {
-		margin-left: 110px;
-	}
-
-	.github-page {
-		margin-left: 110px;
-	}
-
-	.Cfc-disc {
-		font-size: 1.4em;
-		font-family: 'Ubuntu', Sans-Serif;
-		top: 41%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		line-height: 35px;
-		/* color: rgb(248, 248, 179); */
-	}
-
-	.paragraph {
-		font-size: 1.2em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 38px;
-	}
-
-	.paragraphTwo {
-		font-size: 1.2em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 38px;
-	}
-
-	.bioPage {
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		padding-top: 200px;
-		padding-bottom: 400px;
-		font-size: 1.3em;
-	}
-
-	.chelseaLogo {
-		top: 26%;
-		cursor: pointer;
-	}
-
-	.languages {
-		font-size: 25px;
-		margin-top: 100px;
-		color: rgb(255, 255, 142);
-	}
+    .bioPage {
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-	.Contact {
-		margin-left: 250px;
-	}
 
-	.email {
-		margin-left: 250px;
-	}
-
-	.linkedin-page {
-		margin-left: 250px;
-	}
-
-	.github-page {
-		margin-left: 250px;
-	}
-
-	#toggle:checked + .menu {
-		margin-bottom: 0px;
-		justify-content: space-evenly;
-		display: inline-flex;
-		font-size: 20px;
-		background-color: black;
-		margin-top: 7px;
-	}
-
-	.menu {
-		height: 0px;
-	}
-
-	.nav {
-		line-height: 35px;
-	}
-
-	.label {
-		display: flex;
-		position: absolute;
-		margin-left: 730px;
-		line-height: 45px;
-	}
-
-	.bioPage {
-		width: 100%;
-		height: 100vh;
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		padding-top: 200px;
-		font-size: 1.3em;
-	}
-
-	.middle {
-		color: black;
-		font-size: 1.0em;
-	}
-
-	.languages {
-		height: 50px;
-		margin-left: 45px;
-		margin-top: 150px;
-		font-weight: bold;
-		font-size: 1.7em;
-		color: rgb(255, 255, 142);
-	}
-
-	.paragraph {
-		font-size: 1.4em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
-	.paragraphTwo {
-		font-size: 1.4em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
-	.Cfc-disc {
-		line-height: 50px;
-		font-family: 'Ubuntu', sans-serif;
-		margin-top: 100px;
-		margin-left: 80px;
-		top: 45%;
-		width: 78%;
-		text-indent: 3%;
-		left: 0%;
-		background: border-box;
-		/* color: rgb(248, 248, 179); */
-		font-size: 1.5em;
-		text-align: center;
-	}
-
-	.chelseaLogo {
-		top: 30%;
-		height: auto;
-		cursor: pointer;
-		margin-left: 130px;
-		width: 480px;
-	}
-
-	.chelseaFc {
-		top: 19%;
-		font-size: 1.7em;
-		margin-left: 25px;
-	}
+    .bioPage {
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-	.bioPage {
-		margin: 0;
-		background-repeat: no-repeat;
-		background-position: center;
-		min-height: 100vh;
-		font-size: 1.3em;
-	}
-
-	.paragraph {
-		font-size: 1.5em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
-	.paragraphTwo {
-		font-size: 1.5em;
-		color: rgb(255, 255, 255);
-		Font-Family: 'Ubuntu', Sans-Serif;
-		line-height: 40px;
-	}
-
-	.middle {
-		font-size: 1.3em;
-		width: 65%;
-		padding-left: 250px;
-		/* margin-left: 400px; */
-		font-size: 1.3em;
-	}
-
-	.chelseaFc {
-		font-family: 'Ubuntu', sans-serif;
-		margin-left: 30px;
-		/* color: rgb(248, 248, 179); */
-		font-size: 2.5em;
-	}
-
-	.Cfc-disc {
-		/* color: rgb(248, 248, 179); */
-		top: 54%;
-		font-family: 'Ubuntu', sans-serif;
-		line-height: 50px;
-		margin-top: 30px;
-		margin-left: 100px;
-		text-align: center;
-		font-size: 1.5em;
-	}
-
-	.languages {
-		font-size: 2.0em;
-		color: rgb(255, 255, 142);
-		margin-top: 220px;
-	}
-
-	.chelseaLogo {
-		top: 26%;
-		width: 500px;
-		height: auto;
-		margin-left: 248px;
-		margin-top: 10px;
-		cursor: pointer;
-	}
-
-	#Github {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
-
-	#Linkedin {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
-
-	label {
-		display: none;
-	}
-
-	#toggle:checked + .menu {
-		display: none;
-	}
-
-	.name {
-		padding-right: 335px;
-	}
-
-	.menu {
-		display: inline-flex;
-		justify-content: flex-end;
-	}
-
-	.menu a {
-		font-size: 25px;
-		display: block;
-
-		text-decoration: none;
-		margin: 0px;
-		margin-right: 19px;
-		/*top to bottom*/
-
-		/*from left to right*/
-		line-height: 60px;
-		color: white;
-	}
+    .bioPage {
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
-	.middle {
-		width: 50%;
-		padding-bottom: 170px;
-		margin-left: 390px;
-	}
 
-	.Contact {
-		background-color: white;
-		border-radius: 20px;
-		color: black;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-	}
+    .bioPage {
+        background-size: cover;
+    }
 
-	.email {
-		background-color: black;
-		border-radius: 20px;
-		color: white;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-	}
-
-	.linkedin-page {
-		background-color: black;
-		border-radius: 20px;
-		color: white;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-		cursor: pointer;
-	}
-
-	.linkedin-page:hover {
-		background-color: white;
-		color: black;
-	}
-
-	.github-page {
-		background-color: black;
-		border-radius: 20px;
-		color: white;
-		padding: 20px;
-		margin-right: 20px;
-		font-weight: bold;
-		cursor: pointer;
-	}
-
-	.projects {
-		background-image: url("https://images.pexels.com/photos/2725479/pexels-photo-2725479.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-			no-repeat;
-		background-size: cover;
-		min-height: 120vh;
-
-		background-position: bottom center;
-	}
-
-	.bioPage {
-		background-size: cover;
-		min-height: 100vh;
-	}
-
-	#Github {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
-
-	#Linkedin {
-		color: white;
-		font-weight: bold;
-		font-size: 23px;
-	}
-
-	.Cfc-disc {
-		font-family: 'Ubuntu', sans-serif;
-		word-spacing: 5px;
-		text-align: center;
-		line-height: 60px;
-		margin: 220px;
-		margin-left: 150px;
-		margin-top: 60px;
-		text-indent: 0%;
-		font-size: 1.85em;
-		/* color: rgb(255, 255, 142); */
-	}
-
-	.chelseaFc {
-		/* color: rgb(255, 255, 142); */
-		font-family: 'Ubuntu', sans-serif;
-		font-size: 2.3em;
-		text-decoration: underline;
-		top: 10%;
-		margin-right: 0px;
-	}
-
-	.chelseaLogo {
-		width: 510px;
-		top: 17%;
-		height: auto;
-		cursor: pointer;
-		margin-top: 1px;
-		margin-left: 500px;
-	}
-
-	.homePage {
-		background-size: cover;
-		min-height: 100vh;
-	}
-
-	.Contact:hover {
-		background-color: black;
-		color: white;
-	}
-
-	.email:hover {
-		background-color: white;
-		color: black;
-	}
-
-	.github-page:hover {
-		background-color: white;
-		color: black;
-	}
-
-	.languages {
-		Font-Family: 'Open Sans', Sans-Serif;
-		top: 90%;
-		font-size: 2.0em;
-		/* color: rgb(255, 255, 142); */
-	}
-
-	label {
-		display: none;
-	}
-
-	#toggle:checked + .menu {
-		display: none;
-	}
-
-	.name {
-		padding-right: 680px;
-	}
-
-	.menu {
-		margin-top: 10px;
-		display: inline-flex;
-		justify-content: space-evenly;
-	}
-
-	.menu a {
-		font-size: 25px;
-		display: block;
-
-		text-decoration: none;
-		margin: 0px;
-		margin-right: 6px;
-		/*top to bottom*/
-
-		/*from left to right*/
-		line-height: 60px;
-		color: white;
-	}
-
-	.paragraph {
-		text-indent: 8%;
-		word-spacing: 8px;
-		Font-Family: 'Ubuntu', Sans-Serif;
-		margin: 70px;
-		line-height: 45px;
-		color: rgb(255, 255, 255);
-	}
-
-	.paragraphTwo {
-		text-indent: 8%;
-		word-spacing: 8px;
-		Font-Family: 'Ubuntu', Sans-Serif;
-		margin: 70px;
-		line-height: 45px;
-		font-weight: bold;
-		color: rgb(255, 255, 255);
-	}
+    .paragraph {
+        text-indent: 8%;
+        word-spacing: 8px;
+        margin: 70px;
+        line-height: 45px;
+    }
 }
