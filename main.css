@@ -39,8 +39,6 @@ body {
     }
 }
 
-
-
 @media only screen and (min-width: 1440px) {
     .black-background-white-text {
         font-size: 23px;
@@ -59,8 +57,6 @@ body {
     background-color: black;
 }
 
-
-
 .navbar-nav>li {
     padding: 0 30px;
 }
@@ -70,15 +66,6 @@ body {
 .ul-info {
     margin-right: 30px;
 }
-
-/* end of navbar content */
-
-
-
-
-/* end of navigation section */
-
-
 
 /* main change to homepage was completely unsucessful */
 main {
@@ -175,7 +162,7 @@ section {
     text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .card-body {
         flex-direction: column;
     }
@@ -185,7 +172,7 @@ section {
     align-self: stretch;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .card-body img {
         height: 80px;
         width: 175px;
@@ -208,15 +195,13 @@ section {
     }
 }
 
-
-
 .card-body__text {
     color: white;
     text-align: center;
     max-width: 55%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .card-body__text {
         max-width: 95%;
     }
@@ -226,11 +211,9 @@ section {
     }
 }
 
-
 /* ene of projects section */
 
 @media only screen and (max-width: 375px) {
-
 
     .bioPage {
         margin-top: 10px;
@@ -241,7 +224,6 @@ section {
         font-size: 1.3em;
         font-weight: bold;
     }
-
 }
 
 @media only screen and (min-width: 425px) {
@@ -252,7 +234,6 @@ section {
         background-position: center;
         font-size: 1.3em;
     }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -264,7 +245,6 @@ section {
         background-position: center;
         font-size: 1.3em;
     }
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -274,7 +254,6 @@ section {
         background-position: center;
         font-size: 1.3em;
     }
-
 }
 
 @media only screen and (min-width: 1440px) {
@@ -289,5 +268,4 @@ section {
         margin: 70px;
         line-height: 45px;
     }
-
 }
