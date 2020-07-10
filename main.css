@@ -121,6 +121,8 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     font-size: 1.4em;
+    padding: 10%;
+
 }
 
 .bio-paragraph {
@@ -130,6 +132,7 @@ section {
     /* margin: 36px; */
     text-indent: 5%;
     line-height: 28px;
+    padding: 40px;
 }
 
 @media (max-width: 375px) {
@@ -168,7 +171,6 @@ section {
         /* margin: 70px; */
         line-height: 45px;
         font-size: 1.4em;
-        padding: 40px;
     }
 }
 
