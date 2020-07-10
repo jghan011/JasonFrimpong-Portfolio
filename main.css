@@ -40,28 +40,12 @@ body {
 }
 
 
-@media only screen and (max-width: 375px) {
-    .black-background-white-text {
-        font-size: 17px;
-        line-height: 1.6;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .black-background-white-text {
-        font-size: 17.2px;
-        line-height: 1.8;
-        word-spacing: 2px;
-    }
-}
 
 @media only screen and (min-width: 1440px) {
     .black-background-white-text {
         font-size: 23px;
-        font-family: arial, sans-serif;
         line-height: 45px;
         word-spacing: 4.5px;
-        font-weight: .5px;
     }
 }
 
@@ -70,7 +54,7 @@ body {
     line-height: 2.0;
 }
 
-.color {
+.black-color {
     color: black;
     background-color: black;
 }
@@ -90,16 +74,11 @@ body {
 /* end of navbar content */
 
 
-button span {
-    color: white;
-}
+
 
 /* end of navigation section */
 
-.portfolio {
-    cursor: pointer;
-    font-weight: bold;
-}
+
 
 /* main change to homepage was completely unsucessful */
 main {
@@ -176,27 +155,24 @@ section {
 
 /* projects info */
 .projects {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    cursor: pointer;
     display: none;
     position: relative;
-    background-color: black;
     width: 100%;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    color: black;
-
-    background-size: cover;
-
-    cursor: pointer;
 }
 
 .card-body {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: row;
-    text-align: center;
     font-family: arial;
     justify-content: space-between;
+    text-align: center;
 }
 
 @media (max-width: 375px) {
@@ -232,11 +208,7 @@ section {
     }
 }
 
-@media (max-width: 375px) {
-    .card-body {
-        flex-direction: column;
-    }
-}
+
 
 .card-body__text {
     color: white;
@@ -248,13 +220,12 @@ section {
     .card-body__text {
         max-width: 95%;
     }
-}
 
-@media (max-width: 375px) {
     .card-body__text h4 {
         margin-top: 15px;
     }
 }
+
 
 /* ene of projects section */
 
