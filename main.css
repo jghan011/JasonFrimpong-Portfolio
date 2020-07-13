@@ -86,7 +86,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 1.4em;
+    font-size: 19px;
     padding: 10%;
 
 }
@@ -94,7 +94,7 @@ section {
 .bio-paragraph {
     color: rgb(255, 255, 255);
     font-size: .9em;
-    Font-Family: 'Ubuntu', Sans-Serif;
+
     /* margin: 36px; */
     text-indent: 5%;
     line-height: 28px;
@@ -105,7 +105,6 @@ section {
     .bio-paragraph {
         line-height: 38px;
         font-size: 1.09em;
-        Font-Family: 'Ubuntu', Sans-Serif;
     }
 }
 
@@ -117,7 +116,7 @@ section {
 
 @media only screen and (max-width: 768px) {
     .bio-paragraph {
-        font-size: 1.4em;
+        /* font-size: 1.4em; */
         /* line-height: 40px; */
     }
 }
@@ -135,10 +134,13 @@ section {
         text-indent: 8%;
         word-spacing: 8px;
         /* margin: 70px; */
-        line-height: 45px;
-        font-size: 1.4em;
+        line-height: 1.6;
+        font-size: 17px;
     }
 }
+
+
+
 
 /* projects info */
 .projects {

@@ -1,0 +1,48 @@
+.bio-paragraph {
+    color: rgb(255, 255, 255);
+    font-size: .9em;
+    font-Family: 'Ubuntu', Sans-Serif;
+    /* margin: 36px; */
+    text-indent: 5%;
+    line-height: 28px;
+    padding: 40px;
+}
+
+@media (max-width: 375px) {
+    .bio-paragraph {
+        line-height: 38px;
+        font-size: 1.09em;
+        font-Family: 'Ubuntu', Sans-Serif;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .bio-paragraph {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bio-paragraph {
+        font-size: 1.4em;
+        /* line-height: 40px; */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .bio-paragraph {
+        /* font-size: 1.5em; */
+        line-height: 40px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .bio-paragraph {
+        text-indent: 8%;
+        word-spacing: 8px;
+        /* margin: 70px; */
+        line-height: 45px;
+        font-size: 1.4em;
+    }
+}
