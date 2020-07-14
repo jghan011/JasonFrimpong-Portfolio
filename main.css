@@ -9,6 +9,10 @@ body {
     height: 100vh;
 }
 
+main {
+    font-size: 16px;
+
+}
 
 /* navbar contents */
 .navbar-dark .navbar-nav .nav-link {
@@ -87,19 +91,62 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 19px;
+    font-size: 16px;
     padding: 10%;
 
 }
 
+@media only screen and (max-width: 375px) {
+
+    .bioPage {
+        margin-top: 10px;
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .bioPage {
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .bioPage {
+        width: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .bioPage {
+        margin: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .bioPage {
+        background-size: cover;
+    }
+}
+
 .bio-paragraph {
     color: rgb(255, 255, 255);
-    font-size: 19px;
-
-    /* margin: 36px; */
     text-indent: 5%;
     line-height: 1.6px;
-    padding: 40px;
+    padding: 10px;
 }
 
 
@@ -107,9 +154,7 @@ section {
     .bio-paragraph {
         text-indent: 8%;
         word-spacing: 8px;
-        /* margin: 70px; */
         line-height: 1.6;
-        font-size: 19px;
     }
 }
 
@@ -132,7 +177,6 @@ section {
     align-items: center;
     display: flex;
     flex-direction: row;
-    font-family: arial;
     justify-content: space-between;
     text-align: center;
 }
@@ -187,60 +231,3 @@ section {
 }
 
 /* ene of projects section */
-
-@media only screen and (max-width: 375px) {
-
-    .bioPage {
-        margin-top: 10px;
-        width: 100%;
-        margin: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        font-size: 1.3em;
-        font-weight: bold;
-    }
-}
-
-@media only screen and (min-width: 425px) {
-    .bioPage {
-        width: 100%;
-        margin: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        font-size: 1.3em;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-
-    .bioPage {
-        width: 100%;
-        margin: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        font-size: 1.3em;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .bioPage {
-        margin: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        font-size: 1.3em;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-
-    .bioPage {
-        background-size: cover;
-    }
-
-    .paragraph {
-        text-indent: 8%;
-        word-spacing: 8px;
-        margin: 70px;
-        line-height: 45px;
-    }
-}
