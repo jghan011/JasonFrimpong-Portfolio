@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    font-size: 16px;
+    font-size: 18px;
 
 }
 
@@ -46,7 +46,7 @@ main {
 
 @media only screen and (min-width: 1440px) {
     .black-background-white-text {
-        font-size: 23px;
+        font-size: 18px;
         line-height: 45px;
         word-spacing: 4.5px;
     }
@@ -91,7 +91,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 10%;
 
 }
