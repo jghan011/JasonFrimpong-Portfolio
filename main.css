@@ -31,6 +31,27 @@ main {
     border-color: rgba(255, 255, 255, .1);
 }
 
+/*end of navbar contnets*/
+
+/*header for hompage*/
+.title {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 7.4vh;
+    border: 2.8px solid white;
+    padding: 10px 20px;
+}
+
+/* end of header for homepage*/
+
 .iconImagesPortfolio {
     font-size: 30px;
     margin-left: 10px;
@@ -51,6 +72,15 @@ main {
         word-spacing: 4.5px;
     }
 }
+
+@media only screen and (min-width: 2240px) {
+    .black-background-white-text {
+        font-size: 29px;
+        line-height: 45px;
+        word-spacing: 4.5px;
+    }
+}
+
 
 .portfolio-project-title {
     text-decoration: underline;
@@ -158,6 +188,14 @@ section {
     }
 }
 
+@media only screen and (min-width: 2240px) {
+    .bio-paragraph {
+        text-indent: 8%;
+        word-spacing: 15px;
+        line-height: 2.5;
+        font-size: 29px;
+    }
+}
 
 
 /* projects info */
